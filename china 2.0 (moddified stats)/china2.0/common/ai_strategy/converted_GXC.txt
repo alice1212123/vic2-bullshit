@@ -1,0 +1,163 @@
+﻿converted_war_strategies_GXC = {
+	enable = {
+		tag = GXC
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 1855
+	}
+	ai_strategy = {
+		type = conquer
+		id = "VIN"
+		value = 76
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIA"
+		value = 18
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 9
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAM"
+		value = 6
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 6
+	}
+}
+
+converted_diplo_strategies_GXC = {
+	enable = {
+		tag = GXC
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 393
+	}
+	ai_strategy = {
+		type = contain
+		id = "YUN"
+		value = 372
+	}
+	ai_strategy = {
+		type = contain
+		id = "VIN"
+		value = 230
+	}
+	ai_strategy = {
+		type = contain
+		id = "POR"
+		value = 151
+	}
+	ai_strategy = {
+		type = contain
+		id = "XSM"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "JAP"
+		value = 50
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "VIN"
+		value = 34
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "POR"
+		value = 12
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIA"
+		value = 9
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 0
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 123
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SIA"
+		value = 122
+	}
+	ai_strategy = {
+		type = alliance
+		id = "LAO"
+		value = 32
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "KOR"
+		value = 69
+	}
+	ai_strategy = {
+		type = protect
+		id = "VIN"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "BRM"
+		value = 20
+	}
+	ai_strategy = {
+		type = protect
+		id = "LAO"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CHI"
+		value = 164
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "POR"
+		value = 96
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "JAP"
+		value = 81
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "VIN"
+		value = 46
+	}
+}

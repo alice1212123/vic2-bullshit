@@ -1,0 +1,76 @@
+characters={
+	X76_eduardo_montes={
+		name=X76_eduardo_montes
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X76_rafael_menendez={
+		name=X76_rafael_menendez
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X76_doroteo_fernandez={
+		name=X76_doroteo_fernandez
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X76_lorenzo_martinez={
+		name=X76_lorenzo_martinez
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X76_oscar_regalado={
+		name=X76_oscar_regalado
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X76_tomas_corral={
+		name=X76_tomas_corral
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/portrait_hon_tiburcio_carias_andino.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

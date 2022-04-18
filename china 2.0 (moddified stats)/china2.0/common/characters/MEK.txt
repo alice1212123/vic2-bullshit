@@ -1,0 +1,16 @@
+characters={
+	MEK_lukas_von_blumenthal={
+		name=MEK_lukas_von_blumenthal
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Wendell_Willkie.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,142 @@
+﻿capital = 564
+set_research_slots = 3
+
+oob = "BOS_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_yugoslavia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 74
+	democratic = 23
+	neutrality = 3
+}
+
+add_opinion_modifier = { target = AFG modifier = positive_30 }
+add_opinion_modifier = { target = ALG modifier = positive_30 }
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = BEL modifier = negative_30 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BRA modifier = negative_30 }
+add_opinion_modifier = { target = BUK modifier = positive_30 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = positive_30 }
+add_opinion_modifier = { target = ENG modifier = negative_5 }
+add_opinion_modifier = { target = FRA modifier = negative_10 }
+add_opinion_modifier = { target = GRE modifier = negative_20 }
+add_opinion_modifier = { target = ITA modifier = negative_20 }
+add_opinion_modifier = { target = KHI modifier = positive_30 }
+add_opinion_modifier = { target = KYR modifier = positive_30 }
+add_opinion_modifier = { target = LIB modifier = negative_10 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = MNT modifier = positive_25 }
+add_opinion_modifier = { target = MOR modifier = positive_30 }
+add_opinion_modifier = { target = NGA modifier = positive_30 }
+add_opinion_modifier = { target = OMA modifier = positive_15 }
+add_opinion_modifier = { target = PER modifier = positive_15 }
+add_opinion_modifier = { target = POR modifier = negative_10 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SER modifier = positive_25 }
+add_opinion_modifier = { target = SWE modifier = negative_30 }
+add_opinion_modifier = { target = SWI modifier = negative_30 }
+add_opinion_modifier = { target = UAE modifier = positive_15 }
+add_opinion_modifier = { target = URG modifier = negative_10 }
+add_opinion_modifier = { target = USA modifier = negative_30 }
+add_opinion_modifier = { target = VEN modifier = negative_10 }
+add_opinion_modifier = { target = X25 modifier = positive_30 }
+add_opinion_modifier = { target = X33 modifier = positive_30 }
+add_opinion_modifier = { target = X35 modifier = negative_10 }
+add_opinion_modifier = { target = X37 modifier = positive_30 }
+add_opinion_modifier = { target = X43 modifier = positive_30 }
+add_opinion_modifier = { target = X58 modifier = negative_10 }
+add_opinion_modifier = { target = X70 modifier = positive_30 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X76 modifier = negative_10 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_bosniak
+}
+
+recruit_character = BOS_adnan_ekrem
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Doroteja Sarajlic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BOS }
+	}
+
+	create_operative_leader = {
+		name = "Ekaterina Ljubicic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BOS }
+	}
+
+	create_operative_leader = {
+		name = "Doroteja Abdic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BOS }
+	}
+
+	create_operative_leader = {
+		name = "Safvet Kulenovic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BOS }
+	}
+
+	create_operative_leader = {
+		name = "Asim Konjic"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BOS }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

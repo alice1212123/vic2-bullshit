@@ -1,0 +1,64 @@
+characters={
+	KOR_seo_seon={
+		name=KOR_seo_seon
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_hong_si={
+		name=KOR_hong_si
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_bak_yong={
+		name=KOR_bak_yong
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_yun_bo={
+		name=KOR_yun_bo
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	KOR_sim_hwan={
+		name=KOR_sim_hwan
+		portraits={
+			civilian={
+				large="gfx/leaders/Korean_Japan/Portrait_KOR_Syngman_Rhee.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

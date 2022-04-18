@@ -1,0 +1,16 @@
+characters={
+	SLO_gustav_tiso={
+		name=SLO_gustav_tiso
+		portraits={
+			civilian={
+				large="gfx/leaders/Eastern_European/Portrait_Lithuania_Kazimieras_II_Tiskevicius.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,64 @@
+characters={
+	X78_nicolae_antonescu={
+		name=X78_nicolae_antonescu
+		corps_commander={
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X78_iacob_berindei={
+		name=X78_iacob_berindei
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X78_henric_berindei={
+		name=X78_henric_berindei
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X78_constin_salajan={
+		name=X78_constin_salajan
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X78_nicolae_gardescu={
+		name=X78_nicolae_gardescu
+		portraits={
+			civilian={
+				large="gfx/leaders/Balkans/Portrait_Romania_Sever_Bocu.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

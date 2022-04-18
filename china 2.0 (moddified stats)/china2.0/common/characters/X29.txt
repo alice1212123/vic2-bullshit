@@ -1,0 +1,16 @@
+characters={
+	X29_otto_egge={
+		name=X29_otto_egge
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_USA_John_Nance_Garner.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=28
+	name="STATE_28"
+	resources={
+		aluminium=5.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			13083 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 4
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = BRA
+		add_claim_by = BOL
+		add_claim_by = X19
+	}
+
+	provinces={
+		1979 2198 5083 5214 5216 5232 8185 8254 10960 12919 12965 13083 
+	}
+	manpower=4823788
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

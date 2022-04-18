@@ -1,0 +1,40 @@
+characters={
+	X75_aleksandrs_eizenteins={
+		name=X75_aleksandrs_eizenteins
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_sandis_kovalevskis={
+		name=X75_sandis_kovalevskis
+		navy_leader={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=4
+			legacy_id=0
+		}
+	}
+
+	X75_arnolds_lacis={
+		name=X75_arnolds_lacis
+		portraits={
+			civilian={
+				large="gfx/leaders/Eastern_European/Portrait_Galicia_Karl_Albrecht.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

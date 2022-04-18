@@ -1,0 +1,33 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "1st Fleet"
+			location = 6446
+			ship = { name = "François Pelsaert" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BEL } } }
+			ship = { name = "Louis Boisot" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BEL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "BEL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "BEL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

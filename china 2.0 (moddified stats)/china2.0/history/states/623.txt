@@ -1,0 +1,33 @@
+
+state={
+	id=623
+	name="STATE_623"
+
+	history={
+		owner = USA
+		victory_points = {
+			9864 7 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 3
+			9864 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		3693 3863 6882 9801 9864 11740 11782 11900 
+	}
+	manpower=4882664
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

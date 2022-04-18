@@ -1,0 +1,64 @@
+characters={
+	X49_tailapa_rani={
+		name=X49_tailapa_rani
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X49_vishnuvardhana_wodeyar={
+		name=X49_vishnuvardhana_wodeyar
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X49_krisnaraja_gowda={
+		name=X49_krisnaraja_gowda
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X49_guvida_nayaka={
+		name=X49_guvida_nayaka
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X49_basaveshwara_rayanna={
+		name=X49_basaveshwara_rayanna
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Princely_Osman_Ali_Khan.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

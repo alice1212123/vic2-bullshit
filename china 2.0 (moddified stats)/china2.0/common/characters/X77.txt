@@ -1,0 +1,16 @@
+characters={
+	X77_innocenzo_la_marmora={
+		name=X77_innocenzo_la_marmora
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_Papal_State_Angelo_Cerica.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

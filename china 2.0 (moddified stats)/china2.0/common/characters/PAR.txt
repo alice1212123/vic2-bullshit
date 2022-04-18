@@ -1,0 +1,64 @@
+characters={
+	PAR_patricio_de_la_plaza={
+		name=PAR_patricio_de_la_plaza
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PAR_bernardo_de_rosas={
+		name=PAR_bernardo_de_rosas
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PAR_cirilo_berro={
+		name=PAR_cirilo_berro
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PAR_maximo_rodriguez_de_francia={
+		name=PAR_maximo_rodriguez_de_francia
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PAR_luis_rivarola={
+		name=PAR_luis_rivarola
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/portrait_south_america_generic_7.dds"
+			}
+		}
+		country_leader={
+			ideology=minarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

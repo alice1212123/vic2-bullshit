@@ -1,0 +1,16 @@
+characters={
+	X51_racheltjie_botha={
+		name=X51_racheltjie_botha
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

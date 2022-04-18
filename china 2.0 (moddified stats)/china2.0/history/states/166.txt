@@ -1,0 +1,34 @@
+
+state={
+	id=166
+	name="STATE_166"
+	resources={
+		chromium=7.000
+		steel=22.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			4822 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ENG
+		add_core_of = SAF
+	}
+
+	provinces={
+		1509 4822 5203 10668 10697 12419 
+	}
+	manpower=865952
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

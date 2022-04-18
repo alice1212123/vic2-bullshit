@@ -1,0 +1,33 @@
+
+state={
+	id=60
+	name="STATE_60"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			10627 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_claim_by = MON
+	}
+
+	provinces={
+		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+	}
+	manpower=686988
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

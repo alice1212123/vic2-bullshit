@@ -1,0 +1,16 @@
+characters={
+	NZL_ian_smith={
+		name=NZL_ian_smith
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_USA_John_Nance_Garner.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

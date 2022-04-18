@@ -1,0 +1,16 @@
+characters={
+	GUA_francisco_rosales={
+		name=GUA_francisco_rosales
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_Peru_Carlos_Miro_Quesada.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

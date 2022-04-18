@@ -1,0 +1,16 @@
+characters={
+	DOM_gerardo_de_rojas={
+		name=DOM_gerardo_de_rojas
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_Ecuador_Alberto_Gallo.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

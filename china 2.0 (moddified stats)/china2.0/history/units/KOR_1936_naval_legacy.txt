@@ -1,0 +1,46 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12011
+		task_force = {
+			name = "2nd Fleet"
+			location = 12011
+			ship = { name = "Baekje" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "Changbai" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "Daedeok" definition = battleship equipment = { battleship_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Cheju Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Hamhung Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Wonsan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "2nd Hamhung Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Cheju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "2nd Cheju Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Hamhung Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "2nd Hamhung Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "Baekdu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "Duman" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "Dongmyeongseong" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+			ship = { name = "Gayasan" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = KOR } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "KOR"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "KOR"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

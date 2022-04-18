@@ -1,0 +1,16 @@
+characters={
+	DNZ_theodor_krohn={
+		name=DNZ_theodor_krohn
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

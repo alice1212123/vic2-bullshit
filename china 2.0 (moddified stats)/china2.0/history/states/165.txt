@@ -1,0 +1,36 @@
+
+state={
+	id=165
+	name="STATE_165"
+	resources={
+		aluminium=196.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			8107 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			4982 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ENG
+		add_claim_by = VEN
+	}
+
+	provinces={
+		1928 4982 8107 10906 12716 12828 
+	}
+	manpower=1745216
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

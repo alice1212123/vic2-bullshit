@@ -1,0 +1,16 @@
+characters={
+	NIC_pedro_menendez={
+		name=NIC_pedro_menendez
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/portrait_els_maximiliano_hernandez_martinez.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

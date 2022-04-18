@@ -1,0 +1,33 @@
+
+state={
+	id=370
+	name="STATE_370"
+
+	history={
+		owner = X36
+		victory_points = {
+			11580 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = AUS
+		add_core_of = X36
+		add_claim_by = HUN
+		add_claim_by = SER
+		add_claim_by = YUG
+	}
+
+	provinces={
+		614 619 3614 3617 3623 6643 9621 11580 11787 
+	}
+	manpower=1828344
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

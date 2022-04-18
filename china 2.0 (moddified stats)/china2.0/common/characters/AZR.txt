@@ -1,0 +1,16 @@
+characters={
+	AZR_hasan_nakhchivani={
+		name=AZR_hasan_nakhchivani
+		portraits={
+			civilian={
+				large="gfx/leaders/JOR/Portrait_Arabia_Generic_democratic1.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

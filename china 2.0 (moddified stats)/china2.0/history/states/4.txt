@@ -1,0 +1,35 @@
+
+state={
+	id=4
+	name="STATE_4"
+	resources={
+		steel=11.000
+	}
+
+	history={
+		owner = ALG
+		victory_points = {
+			13077 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			4116 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = ALG
+	}
+
+	provinces={
+		3991 4116 4146 4150 7008 7040 7065 10045 10059 12018 12020 12760 13074 13077 
+	}
+	manpower=850336
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

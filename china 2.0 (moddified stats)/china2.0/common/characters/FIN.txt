@@ -1,0 +1,52 @@
+characters={
+	FIN_martti_linder={
+		name=FIN_martti_linder
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=6
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FIN_aleksanteri_wetzer={
+		name=FIN_aleksanteri_wetzer
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FIN_mikko_airo={
+		name=FIN_mikko_airo
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	FIN_eemil_ignatius={
+		name=FIN_eemil_ignatius
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/portrait_fra_leon_blum.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

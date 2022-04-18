@@ -1,0 +1,16 @@
+characters={
+	X09_eduard_von_hannover={
+		name=X09_eduard_von_hannover
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_NFA_Napoleon_VI.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,64 @@
+characters={
+	BEL_alexandre_de_grez={
+		name=BEL_alexandre_de_grez
+		corps_commander={
+			skill=4
+			attack_skill=6
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	BEL_charles_nalinne={
+		name=BEL_charles_nalinne
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BEL_didier_clerix={
+		name=BEL_didier_clerix
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BEL_nicolas_de_broqueville={
+		name=BEL_nicolas_de_broqueville
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	BEL_emile_coquilhat={
+		name=BEL_emile_coquilhat
+		portraits={
+			civilian={
+				large="gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

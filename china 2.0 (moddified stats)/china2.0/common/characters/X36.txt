@@ -1,0 +1,88 @@
+characters={
+	X36_rudolf_von_tegetthoff={
+		name=X36_rudolf_von_tegetthoff
+		corps_commander={
+			skill=4
+			attack_skill=5
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X36_walter_von_haynau={
+		name=X36_walter_von_haynau
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X36_julius_haus={
+		name=X36_julius_haus
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X36_lothar_zu_hohenlohe={
+		name=X36_lothar_zu_hohenlohe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X36_michael_dankl={
+		name=X36_michael_dankl
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X36_reinhold_blos={
+		name=X36_reinhold_blos
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X36_michael_zu_hohenlohe={
+		name=X36_michael_zu_hohenlohe
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_Norway_Haakon_VII.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

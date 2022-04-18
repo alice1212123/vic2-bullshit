@@ -1,0 +1,16 @@
+characters={
+	BUL_kliment_dimitriev={
+		name=BUL_kliment_dimitriev
+		portraits={
+			civilian={
+				large="gfx/leaders/BUL/Portrait_Bulgaria_Georgi_Dimitrov.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

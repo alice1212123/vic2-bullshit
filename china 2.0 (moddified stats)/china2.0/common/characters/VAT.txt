@@ -1,0 +1,16 @@
+characters={
+	VAT_orazio_lanza={
+		name=VAT_orazio_lanza
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

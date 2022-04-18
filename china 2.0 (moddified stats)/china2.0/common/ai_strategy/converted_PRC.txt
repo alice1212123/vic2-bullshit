@@ -1,0 +1,63 @@
+﻿converted_war_strategies_PRC = {
+	enable = {
+		tag = PRC
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 2017
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 192
+	}
+}
+
+converted_diplo_strategies_PRC = {
+	enable = {
+		tag = PRC
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIA"
+		value = 26
+	}
+	ai_strategy = {
+		type = contain
+		id = "KOR"
+		value = 17
+	}
+	ai_strategy = {
+		type = contain
+		id = "JAP"
+		value = 9
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 28
+	}
+	ai_strategy = {
+		type = alliance
+		id = "VIN"
+		value = 58
+	}
+}

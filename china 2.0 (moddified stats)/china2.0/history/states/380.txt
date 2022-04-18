@@ -1,0 +1,33 @@
+
+state={
+	id=380
+	name="STATE_380"
+	resources={
+		tungsten=5.000
+	}
+
+	history={
+		owner = X46
+		victory_points = {
+			12829 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = X46
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1199 2092 12829 
+	}
+	manpower=1720356
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

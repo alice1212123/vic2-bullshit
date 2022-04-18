@@ -1,0 +1,48 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12011
+		task_force = {
+			name = "2nd Fleet"
+			location = 12011
+			ship = { name = "Baekje" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "Early Battleship" } } }
+			ship = { name = "Changbai" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "Early Battleship" } } }
+			ship = { name = "Daedeok" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = KOR version_name = "Early Battleship" } } }
+			ship = { name = "1st Cheju Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Hamhung Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Wonsan Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Hamhung Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Cheju Cruiser" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Cheju Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Hamhung Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Hamhung Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Baekdu" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Duman" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Dongmyeongseong" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Gayasan" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = KOR version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "KOR"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "KOR"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

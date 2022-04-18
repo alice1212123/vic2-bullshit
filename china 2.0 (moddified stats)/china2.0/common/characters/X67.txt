@@ -1,0 +1,16 @@
+characters={
+	X67_corrado_gironda={
+		name=X67_corrado_gironda
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

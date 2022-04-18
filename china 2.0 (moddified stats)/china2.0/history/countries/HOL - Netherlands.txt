@@ -1,0 +1,435 @@
+﻿capital = 398
+set_research_slots = 3
+
+oob = "HOL_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "HOL_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "HOL_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	marines = 1
+	synth_oil_experiments = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_heavy_battery = 1
+		basic_light_battery = 1
+		basic_naval_mines = 1
+		basic_secondary_battery = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+		mtg_transport = 1
+		sonar = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = air_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = air_doctrine
+}
+add_doctrine_cost_reduction = {
+	name = land_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = land_doctrine
+}
+
+set_country_flag = conv_dutchland
+set_convoys = 6
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 169 producer = HOL }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 13 producer = HOL }
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1933.1.30"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 5
+	communism = 1
+	democratic = 79
+	fascism = 10
+	neutrality = 4
+	radical = 1
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = LUX
+        autonomous_state = autonomy_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X98
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X99
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = LUX
+        puppet = X98
+        puppet = X99
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = HOL_research
+}
+
+give_guarantee = ALG
+diplomatic_relation = { country = ALG relation = non_aggression_pact }
+
+give_guarantee = LAO
+diplomatic_relation = { country = LAO relation = non_aggression_pact }
+
+give_guarantee = LUX
+diplomatic_relation = { country = LUX relation = non_aggression_pact }
+
+give_guarantee = NGA
+diplomatic_relation = { country = NGA relation = non_aggression_pact }
+
+give_guarantee = SWI
+diplomatic_relation = { country = SWI relation = non_aggression_pact }
+
+give_guarantee = TUR
+diplomatic_relation = { country = TUR relation = non_aggression_pact }
+
+add_opinion_modifier = { target = ALG modifier = positive_176 }
+give_military_access = ALG
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = BEL modifier = positive_135 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = negative_64 }
+add_opinion_modifier = { target = BRM modifier = positive_76 }
+give_military_access = BRM
+add_opinion_modifier = { target = CAM modifier = positive_169 }
+give_military_access = CAM
+add_opinion_modifier = { target = CHI modifier = positive_167 }
+add_opinion_modifier = { target = CHL modifier = negative_95 }
+add_opinion_modifier = { target = COL modifier = positive_5 }
+add_opinion_modifier = { target = DEN modifier = positive_67 }
+add_opinion_modifier = { target = ECU modifier = positive_5 }
+add_opinion_modifier = { target = EGY modifier = negative_64 }
+give_military_access = EGY
+add_opinion_modifier = { target = ENG modifier = positive_138 }
+add_opinion_modifier = { target = ETH modifier = positive_84 }
+give_military_access = ETH
+add_opinion_modifier = { target = FIN modifier = positive_20 }
+add_opinion_modifier = { target = FRA modifier = positive_150 }
+give_military_access = FRA
+add_opinion_modifier = { target = GER modifier = positive_135 }
+give_military_access = GER
+add_opinion_modifier = { target = GRE modifier = positive_13 }
+add_opinion_modifier = { target = ITA modifier = negative_185 }
+add_opinion_modifier = { target = JAP modifier = negative_40 }
+add_opinion_modifier = { target = LAO modifier = positive_200 }
+give_military_access = LAO
+add_opinion_modifier = { target = LIB modifier = positive_20 }
+add_opinion_modifier = { target = LUX modifier = positive_200 }
+add_opinion_modifier = { target = MAD modifier = positive_15 }
+add_opinion_modifier = { target = MEX modifier = positive_43 }
+give_military_access = MEX
+add_opinion_modifier = { target = MNT modifier = positive_13 }
+add_opinion_modifier = { target = MOL modifier = positive_13 }
+add_opinion_modifier = { target = MOR modifier = negative_189 }
+add_opinion_modifier = { target = NGA modifier = positive_170 }
+give_military_access = NGA
+add_opinion_modifier = { target = OMA modifier = positive_5 }
+give_military_access = OMA
+add_opinion_modifier = { target = PER modifier = positive_15 }
+add_opinion_modifier = { target = POL modifier = positive_18 }
+add_opinion_modifier = { target = POR modifier = negative_190 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = positive_13 }
+add_opinion_modifier = { target = SIA modifier = positive_137 }
+add_opinion_modifier = { target = SOV modifier = positive_108 }
+add_opinion_modifier = { target = SPR modifier = positive_190 }
+add_opinion_modifier = { target = SWE modifier = positive_105 }
+add_opinion_modifier = { target = SWI modifier = positive_200 }
+add_opinion_modifier = { target = TUR modifier = positive_200 }
+add_opinion_modifier = { target = UAE modifier = negative_100 }
+add_opinion_modifier = { target = UKR modifier = positive_15 }
+add_opinion_modifier = { target = URG modifier = positive_5 }
+add_opinion_modifier = { target = USA modifier = positive_187 }
+add_opinion_modifier = { target = VEN modifier = positive_79 }
+give_military_access = VEN
+add_opinion_modifier = { target = VIN modifier = positive_90 }
+add_opinion_modifier = { target = X22 modifier = negative_100 }
+add_opinion_modifier = { target = X25 modifier = positive_15 }
+add_opinion_modifier = { target = X35 modifier = positive_44 }
+add_opinion_modifier = { target = X36 modifier = positive_107 }
+add_opinion_modifier = { target = X58 modifier = negative_80 }
+add_opinion_modifier = { target = X73 modifier = positive_56 }
+give_military_access = X73
+add_opinion_modifier = { target = X75 modifier = positive_15 }
+add_opinion_modifier = { target = X76 modifier = negative_95 }
+add_opinion_modifier = { target = X78 modifier = positive_15 }
+
+
+add_ideas = {
+	HOL_monarch
+	disarmed_nation
+	civilian_economy
+	export_focus
+	culture_dutch
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = HOL_abraham_de_kock
+recruit_character = HOL_isaac_van_geen
+recruit_character = HOL_jurgen_van_der_capellen
+recruit_character = HOL_elias_verspijck
+recruit_character = HOL_karel_nachtegaal
+recruit_character = HOL_pieter_van_egmont
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Miep van Keppel"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HOL }
+	}
+
+	create_operative_leader = {
+		name = "Corrie Kool"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HOL }
+	}
+
+	create_operative_leader = {
+		name = "Helena van Noort"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { HOL }
+	}
+
+	create_operative_leader = {
+		name = "Gabriel Nachtegaal"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HOL }
+	}
+
+	create_operative_leader = {
+		name = "Quinten van der Werff"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { HOL }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = HOL_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = ship_hull_heavy_1
+		name_group = HOL_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = HOL_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = HOL_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = HOL_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

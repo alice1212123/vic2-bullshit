@@ -1,0 +1,16 @@
+characters={
+	CAN_francis_hastings={
+		name=CAN_francis_hastings
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

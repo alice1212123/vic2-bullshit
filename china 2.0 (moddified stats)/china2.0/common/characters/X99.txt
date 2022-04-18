@@ -1,0 +1,16 @@
+characters={
+	X99_matthijs_michiels={
+		name=X99_matthijs_michiels
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

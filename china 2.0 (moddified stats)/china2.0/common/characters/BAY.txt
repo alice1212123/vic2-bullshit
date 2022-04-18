@@ -1,0 +1,16 @@
+characters={
+	BAY_julius_von_habsburg={
+		name=BAY_julius_von_habsburg
+		portraits={
+			civilian={
+				large="gfx/leaders/MAL/portrait_mal_shenton_thomas.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

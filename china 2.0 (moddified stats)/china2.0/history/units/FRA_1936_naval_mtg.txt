@@ -1,0 +1,157 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9898
+		task_force = {
+			name = "1st Fleet"
+			location = 9898
+			ship = { name = "Napoléon" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Poitou" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Bourgogne" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Terrible" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Amiral Duperré" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Alsace" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Louis XIV" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Rouen" definition = battleship start_experience_factor = 0.28605 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Poincare" definition = battleship start_experience_factor = 0.27606 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Dunkerque" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Strasbourg" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Richelieu" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Dévastation" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Calais" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Brest" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Clemenceau" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Courbet" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Admiral Baudin" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Hoche" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Indomptable" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Caiman" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Requin" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Petain" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Formidable" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Marceau" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "St Louis" definition = heavy_cruiser start_experience_factor = 0.17734 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Charles Martel" definition = heavy_cruiser start_experience_factor = 0.14732 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Voltaire" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Charlemagne" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Justice" definition = heavy_cruiser start_experience_factor = 0.19212 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Mirebeau" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Démocratie" definition = heavy_cruiser start_experience_factor = 0.17663 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Carnot" definition = heavy_cruiser start_experience_factor = 0.11956 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Danton" definition = heavy_cruiser start_experience_factor = 0.1992 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Vérité" definition = heavy_cruiser start_experience_factor = 0.18276 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Gaulois" definition = heavy_cruiser start_experience_factor = 0.155 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Vergniaud" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Masséna" definition = heavy_cruiser start_experience_factor = 0.1163 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Persévérante" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Friedland" definition = light_cruiser start_experience_factor = 0.18909 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Gracieuse" definition = light_cruiser start_experience_factor = 0.2825 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Toulon" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Arcole" definition = light_cruiser start_experience_factor = 0.18369 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Maurice de Saxe" definition = light_cruiser start_experience_factor = 0.08254 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Tourville" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Dunois" definition = light_cruiser start_experience_factor = 0.19361 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Duguay Trouin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Guerrière" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ney" definition = light_cruiser start_experience_factor = 0.17291 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Leger" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Souverain" definition = light_cruiser start_experience_factor = 0.20579 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Clovis" definition = light_cruiser start_experience_factor = 0.10961 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Bellone" definition = light_cruiser start_experience_factor = 0.25652 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Turenne" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Conde" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Colbert" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Impétueuse" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ulm" definition = light_cruiser start_experience_factor = 0.19725 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Téméraire" definition = light_cruiser start_experience_factor = 0.2578 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Élan" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Navarin" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Impérial" definition = light_cruiser start_experience_factor = 0.20746 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Tilsitt" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Eylau" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Marengo" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Montebello" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Glorieuse" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Vercingetorix" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Richemont" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Audacieuse" definition = light_cruiser start_experience_factor = 0.24759 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Auerstadt" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Wagram" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Vauban" definition = light_cruiser start_experience_factor = 0.14587 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ardente" definition = light_cruiser start_experience_factor = 0.25417 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Victoire" definition = light_cruiser start_experience_factor = 0.24285 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Austerlitz" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 6657
+		task_force = {
+			name = "5th Fleet"
+			location = 6657
+			ship = { name = "Suffren" definition = heavy_cruiser start_experience_factor = 0.17774 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Condorcet" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Diderot" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Tenace" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Lamotte-Picquet" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Algésiras" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 11420
+		task_force = {
+			name = "4th Fleet"
+			location = 11420
+			ship = { name = "Magenta" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Neptune" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+			ship = { name = "Patrie" definition = heavy_cruiser start_experience_factor = 0.15845 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Liberté" definition = heavy_cruiser start_experience_factor = 0.18824 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Bouvet" definition = heavy_cruiser start_experience_factor = 0.13539 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "Primaguet" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Duquesne" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Jena" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 4980
+		task_force = {
+			name = "2nd Fleet"
+			location = 4980
+			ship = { name = "Brennus" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = FRA version_name = "1936 Battleship" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 11535
+		task_force = {
+			name = "3rd Fleet"
+			location = 11535
+			ship = { name = "Triomphant" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "FRA"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "FRA"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

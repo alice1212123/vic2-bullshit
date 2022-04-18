@@ -1,0 +1,76 @@
+characters={
+	HOL_abraham_de_kock={
+		name=HOL_abraham_de_kock
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_isaac_van_geen={
+		name=HOL_isaac_van_geen
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_jurgen_van_der_capellen={
+		name=HOL_jurgen_van_der_capellen
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_elias_verspijck={
+		name=HOL_elias_verspijck
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_karel_nachtegaal={
+		name=HOL_karel_nachtegaal
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	HOL_pieter_van_egmont={
+		name=HOL_pieter_van_egmont
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

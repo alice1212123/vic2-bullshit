@@ -1,0 +1,16 @@
+characters={
+	X19_florentino_rocafuerte={
+		name=X19_florentino_rocafuerte
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/portrait_hai_stenio_vincent.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

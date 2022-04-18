@@ -1,0 +1,18 @@
+﻿converted_war_strategies_X51 = {
+	enable = {
+		tag = X51
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_X51 = {
+	enable = {
+		tag = X51
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

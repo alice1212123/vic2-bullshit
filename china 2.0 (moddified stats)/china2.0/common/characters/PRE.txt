@@ -1,0 +1,16 @@
+characters={
+	PRE_nikolaus_von_boyen={
+		name=PRE_nikolaus_von_boyen
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_NEE_joseph_kennedy_sr.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

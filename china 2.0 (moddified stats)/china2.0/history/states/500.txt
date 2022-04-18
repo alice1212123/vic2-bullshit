@@ -1,0 +1,35 @@
+
+state={
+	id=500
+	name="STATE_500"
+	resources={
+		chromium=9.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			2200 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			5185 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = MAD
+	}
+
+	provinces={
+		2200 5185 8180 8246 11015 12956 
+	}
+	manpower=2128032
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,76 @@
+characters={
+	BOL_mariano_corrico={
+		name=BOL_mariano_corrico
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	BOL_emiliano_de_santa_cruz={
+		name=BOL_emiliano_de_santa_cruz
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_hilarion_calvo={
+		name=BOL_hilarion_calvo
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_luis_zanartu={
+		name=BOL_luis_zanartu
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_eduardo_franco={
+		name=BOL_eduardo_franco
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_bartolome_zanartu={
+		name=BOL_bartolome_zanartu
+		portraits={
+			civilian={
+				large="gfx/leaders/PRU/portrait_per_oscar_benavides.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

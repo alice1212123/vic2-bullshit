@@ -1,0 +1,33 @@
+
+state={
+	id=400
+	name="STATE_400"
+
+	history={
+		owner = HOL
+		victory_points = {
+			6336 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			6336 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = HOL
+	}
+
+	provinces={
+		6286 6336 9309 9335 9403 11318 
+	}
+	manpower=1575588
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

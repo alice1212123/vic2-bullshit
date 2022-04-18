@@ -1,0 +1,16 @@
+characters={
+	ISR_david_rosenthal={
+		name=ISR_david_rosenthal
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

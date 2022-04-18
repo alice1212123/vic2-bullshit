@@ -1,0 +1,18 @@
+﻿converted_war_strategies_LIT = {
+	enable = {
+		tag = LIT
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_LIT = {
+	enable = {
+		tag = LIT
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

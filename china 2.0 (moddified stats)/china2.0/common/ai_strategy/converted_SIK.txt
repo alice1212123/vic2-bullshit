@@ -1,0 +1,148 @@
+﻿converted_war_strategies_SIK = {
+	enable = {
+		tag = SIK
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 530
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TIB"
+		value = 69
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KYR"
+		value = 63
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AFG"
+		value = 23
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 17
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 15
+	}
+}
+
+converted_diplo_strategies_SIK = {
+	enable = {
+		tag = SIK
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "XSM"
+		value = 313
+	}
+	ai_strategy = {
+		type = contain
+		id = "KYR"
+		value = 259
+	}
+	ai_strategy = {
+		type = contain
+		id = "TIB"
+		value = 257
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 195
+	}
+	ai_strategy = {
+		type = contain
+		id = "MON"
+		value = 155
+	}
+	ai_strategy = {
+		type = contain
+		id = "AFG"
+		value = 152
+	}
+	ai_strategy = {
+		type = contain
+		id = "X60"
+		value = 102
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KYR"
+		value = 141
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AFG"
+		value = 60
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 56
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 47
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X60"
+		value = 35
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X60"
+		value = 170
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 41
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BUK"
+		value = 32
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KYR"
+		value = 170
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KHI"
+		value = 62
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X53"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "AFG"
+		value = 46
+	}
+}

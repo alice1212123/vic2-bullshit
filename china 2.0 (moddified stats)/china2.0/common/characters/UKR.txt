@@ -1,0 +1,64 @@
+characters={
+	UKR_nikita_leshchinskiy={
+		name=UKR_nikita_leshchinskiy
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	UKR_leonid_paskevich={
+		name=UKR_leonid_paskevich
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UKR_alexei_chernyakhovsky={
+		name=UKR_alexei_chernyakhovsky
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UKR_arkadiy_bezruchko={
+		name=UKR_arkadiy_bezruchko
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UKR_ivan_ivanenko={
+		name=UKR_ivan_ivanenko
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

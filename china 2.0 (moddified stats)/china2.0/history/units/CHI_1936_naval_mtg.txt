@@ -1,0 +1,105 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10062
+		task_force = {
+			name = "1st Fleet"
+			location = 10062
+			ship = { name = "1st Fuzhou Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Zhanjiang Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Hong Kong Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Huizhou Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.27076 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.2705 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.26735 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.26446 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "5th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.27391 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "6th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.2689 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "7th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.26146 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "8th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.26973 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "9th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.25732 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "10th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.26287 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "11th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.26802 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "12th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.27171 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "13th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.25669 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "14th Hong Kong Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7014
+		task_force = {
+			name = "2nd Fleet"
+			location = 7014
+			ship = { name = "1st Port Arthur Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Shanghai Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Weihaiwei Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Ningbo Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Chengde Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Wuding Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.27076 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.2705 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.26735 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.26446 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "5th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.27391 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "6th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.2689 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "7th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.26146 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "8th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.26973 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "9th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.25732 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "10th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.26287 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "11th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.26802 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "12th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.27171 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "13th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.25669 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "14th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.26069 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "15th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "16th Shanghai Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 7186
+		task_force = {
+			name = "3rd Fleet"
+			location = 7186
+			ship = { name = "1st Haishenwai Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Pogobi Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = CHI version_name = "1936 Battleship" } } }
+			ship = { name = "1st Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.27076 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "2nd Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.2705 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.26735 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.26446 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "5th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.27391 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "6th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.2689 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "7th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.26146 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "8th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.26973 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "9th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.25732 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "10th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.26287 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "11th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.26802 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "12th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.27171 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "13th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.25669 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "14th Ningbo Battleship" definition = heavy_cruiser start_experience_factor = 0.26069 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHI version_name = "1936 Heavy Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "CHI"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "CHI"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

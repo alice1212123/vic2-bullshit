@@ -1,0 +1,18 @@
+﻿converted_war_strategies_IRE = {
+	enable = {
+		tag = IRE
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_IRE = {
+	enable = {
+		tag = IRE
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

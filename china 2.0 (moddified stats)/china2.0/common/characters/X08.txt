@@ -1,0 +1,64 @@
+characters={
+	X08_harsha_qaim={
+		name=X08_harsha_qaim
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X08_bhagwant_ur_rahman={
+		name=X08_bhagwant_ur_rahman
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X08_muhammad_shekha={
+		name=X08_muhammad_shekha
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X08_hayat_shekha={
+		name=X08_hayat_shekha
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X08_harsha_bachittar_singh={
+		name=X08_harsha_bachittar_singh
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_BHC_Mohandas_Karamchand_Gandhi.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

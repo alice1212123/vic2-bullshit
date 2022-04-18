@@ -1,0 +1,34 @@
+
+state={
+	id=558
+	name="STATE_558"
+
+	history={
+		owner = SWE
+		victory_points = {
+			6258 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			408 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = SCA
+		add_core_of = SWE
+	}
+
+	provinces={
+		408 6258 
+	}
+	manpower=118788
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	X52_jurgen_von_waldeck_und_pyrmont={
+		name=X52_jurgen_von_waldeck_und_pyrmont
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_Belgium_King_Albert.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

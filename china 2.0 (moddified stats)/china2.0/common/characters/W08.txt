@@ -1,0 +1,16 @@
+characters={
+	W08_sacho_ginocho={
+		name=W08_sacho_ginocho
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Africa_Generic_new_2.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

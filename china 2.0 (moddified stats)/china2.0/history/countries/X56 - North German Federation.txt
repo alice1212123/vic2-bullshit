@@ -1,0 +1,134 @@
+﻿capital = 275
+set_research_slots = 3
+
+oob = "X56_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_germany
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 29
+	communism = 4
+	democratic = 59
+	neutrality = 4
+	radical = 4
+}
+
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = BEL modifier = negative_15 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = negative_15 }
+add_opinion_modifier = { target = CHL modifier = positive_5 }
+add_opinion_modifier = { target = COL modifier = positive_5 }
+add_opinion_modifier = { target = DEN modifier = negative_50 }
+add_opinion_modifier = { target = ECU modifier = positive_5 }
+add_opinion_modifier = { target = ENG modifier = positive_25 }
+add_opinion_modifier = { target = ETH modifier = positive_15 }
+add_opinion_modifier = { target = GRE modifier = negative_5 }
+add_opinion_modifier = { target = HOL modifier = positive_30 }
+add_opinion_modifier = { target = ITA modifier = negative_5 }
+add_opinion_modifier = { target = LIB modifier = positive_20 }
+add_opinion_modifier = { target = LUX modifier = positive_65 }
+add_opinion_modifier = { target = MAD modifier = positive_15 }
+add_opinion_modifier = { target = MEX modifier = positive_5 }
+add_opinion_modifier = { target = MNT modifier = positive_15 }
+add_opinion_modifier = { target = MOL modifier = positive_15 }
+add_opinion_modifier = { target = POR modifier = positive_5 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = positive_15 }
+add_opinion_modifier = { target = SOV modifier = positive_15 }
+add_opinion_modifier = { target = SWE modifier = negative_50 }
+add_opinion_modifier = { target = URG modifier = positive_5 }
+add_opinion_modifier = { target = VEN modifier = positive_5 }
+add_opinion_modifier = { target = X35 modifier = positive_5 }
+add_opinion_modifier = { target = X36 modifier = positive_40 }
+add_opinion_modifier = { target = X58 modifier = positive_20 }
+add_opinion_modifier = { target = X73 modifier = positive_20 }
+add_opinion_modifier = { target = X76 modifier = positive_5 }
+add_opinion_modifier = { target = X78 modifier = positive_15 }
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_north_german
+}
+
+recruit_character = X56_dieter_von_holstein_gottorp
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Hanna von Anhalt"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X56 }
+	}
+
+	create_operative_leader = {
+		name = "Jessica von Moltke"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X56 }
+	}
+
+	create_operative_leader = {
+		name = "Hanna Droste"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X56 }
+	}
+
+	create_operative_leader = {
+		name = "Erwin von Braunschweig"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X56 }
+	}
+
+	create_operative_leader = {
+		name = "Theodor von Schwarzburg"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X56 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

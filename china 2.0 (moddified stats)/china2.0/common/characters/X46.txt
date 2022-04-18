@@ -1,0 +1,64 @@
+characters={
+	X46_umar_bachittar_singh={
+		name=X46_umar_bachittar_singh
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X46_bhai_bhatti={
+		name=X46_bhai_bhatti
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X46_hayat_shekha={
+		name=X46_hayat_shekha
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X46_durga_kunwar={
+		name=X46_durga_kunwar
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X46_bhai_kunwar={
+		name=X46_bhai_kunwar
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_BHC_Chandra_Bose.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

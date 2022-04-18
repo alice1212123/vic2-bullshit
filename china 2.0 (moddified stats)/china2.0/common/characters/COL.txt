@@ -1,0 +1,76 @@
+characters={
+	COL_francisco_de_paula_gual={
+		name=COL_francisco_de_paula_gual
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	COL_jose_antonio_zaldua={
+		name=COL_jose_antonio_zaldua
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	COL_vicente_zaldua={
+		name=COL_vicente_zaldua
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	COL_pedro_santander={
+		name=COL_pedro_santander
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	COL_juan_castro={
+		name=COL_juan_castro
+		navy_leader={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	COL_domingo_villegas={
+		name=COL_domingo_villegas
+		portraits={
+			civilian={
+				large="gfx/leaders/BRA/Portrait_Brazil_Plinio_Salgado.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

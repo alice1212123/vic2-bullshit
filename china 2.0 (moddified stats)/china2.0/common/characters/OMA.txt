@@ -1,0 +1,52 @@
+characters={
+	OMA_tawfiq_al_hijazi={
+		name=OMA_tawfiq_al_hijazi
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	OMA_halil_ibn_mustafa={
+		name=OMA_halil_ibn_mustafa
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	OMA_ahmad_ibn_salim={
+		name=OMA_ahmad_ibn_salim
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	OMA_iskandar_ibm_kamil={
+		name=OMA_iskandar_ibm_kamil
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_Persia_Ahmad_Shah_Qajar.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+characters={
+	X24_adolf_von_schlieffen={
+		name=X24_adolf_von_schlieffen
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_USA_Happy_Chandler.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,29 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1639
+		task_force = {
+			name = "1st Fleet"
+			location = 1639
+			ship = { name = "ARA Bermejo" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+			ship = { name = "ARA Catamarca" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+			ship = { name = "ARA Constitución" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+			ship = { name = "ARA Córdoba" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+			ship = { name = "ARA Corrientes" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+			ship = { name = "ARA Entrerríos" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "ARG"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

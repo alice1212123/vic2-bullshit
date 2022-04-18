@@ -1,0 +1,16 @@
+characters={
+	SIK_kwong_tian={
+		name=SIK_kwong_tian
+		portraits={
+			civilian={
+				large="gfx/leaders/Sino/Portrait_China_Puyi.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

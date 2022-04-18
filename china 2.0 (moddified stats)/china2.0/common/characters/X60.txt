@@ -1,0 +1,28 @@
+characters={
+	X60_bhuma_ramgarhia={
+		name=X60_bhuma_ramgarhia
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X60_nawab_singh={
+		name=X60_nawab_singh
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_DEH_Maharaja_Ganga_Singh.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

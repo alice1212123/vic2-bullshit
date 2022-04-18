@@ -1,0 +1,76 @@
+characters={
+	ARG_salvador_meza={
+		name=ARG_salvador_meza
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_salvador_flores={
+		name=ARG_salvador_flores
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_marcial_rodriguez_de_francia={
+		name=ARG_marcial_rodriguez_de_francia
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_miguel_paz={
+		name=ARG_miguel_paz
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_justo_vidal={
+		name=ARG_justo_vidal
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	ARG_juan_manuel_de_alvear={
+		name=ARG_juan_manuel_de_alvear
+		portraits={
+			civilian={
+				large="gfx/leaders/BRA/Portrait_Brazil_Getulio_Vargas.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

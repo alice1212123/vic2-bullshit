@@ -1,0 +1,128 @@
+﻿converted_war_strategies_XSM = {
+	enable = {
+		tag = XSM
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 1895
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TIB"
+		value = 76
+	}
+}
+
+converted_diplo_strategies_XSM = {
+	enable = {
+		tag = XSM
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "YUN"
+		value = 319
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIK"
+		value = 200
+	}
+	ai_strategy = {
+		type = contain
+		id = "MON"
+		value = 137
+	}
+	ai_strategy = {
+		type = contain
+		id = "TIB"
+		value = 132
+	}
+	ai_strategy = {
+		type = contain
+		id = "GXC"
+		value = 108
+	}
+	ai_strategy = {
+		type = contain
+		id = "BRM"
+		value = 65
+	}
+	ai_strategy = {
+		type = contain
+		id = "MAN"
+		value = 39
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X60"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRM"
+		value = 83
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AFG"
+		value = 64
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 56
+	}
+	ai_strategy = {
+		type = protect
+		id = "SIK"
+		value = 200
+	}
+	ai_strategy = {
+		type = protect
+		id = "TIB"
+		value = 40
+	}
+	ai_strategy = {
+		type = protect
+		id = "MON"
+		value = 40
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X60"
+		value = 96
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "JAP"
+		value = 68
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KOR"
+		value = 45
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "AFG"
+		value = 35
+	}
+}

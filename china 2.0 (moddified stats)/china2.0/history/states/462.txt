@@ -1,0 +1,35 @@
+
+state={
+	id=462
+	name="STATE_462"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3686 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			3686 = {
+				naval_base = 4
+			}
+			air_base = 6
+
+		}
+		add_core_of = CRI
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+		705 3686 3722 6704 6724 9677 9680 9718 11649 
+	}
+	manpower=937376
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,64 @@
+characters={
+	POL_stefan_wysocki={
+		name=POL_stefan_wysocki
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_klemens_preadzynski={
+		name=POL_klemens_preadzynski
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_stanislaw_zajaczek={
+		name=POL_stanislaw_zajaczek
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_roman_rola_zymierski={
+		name=POL_roman_rola_zymierski
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_stefan_zamoyski={
+		name=POL_stefan_zamoyski
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_POL_Boleslaw_Piasecki.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

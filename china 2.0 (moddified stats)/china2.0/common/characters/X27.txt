@@ -1,0 +1,16 @@
+characters={
+	X27_kyriakos_tes_elladas={
+		name=X27_kyriakos_tes_elladas
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_SPM_Infante_Jaime.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

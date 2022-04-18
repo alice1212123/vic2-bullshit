@@ -1,0 +1,28 @@
+characters={
+	X43_khudadad_khan={
+		name=X43_khudadad_khan
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X43_samandar_khan={
+		name=X43_samandar_khan
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_Afgahnistan_Habibullah_Khan.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

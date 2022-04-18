@@ -1,0 +1,16 @@
+characters={
+	X41_hermann_von_blumenthal={
+		name=X41_hermann_von_blumenthal
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

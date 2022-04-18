@@ -1,0 +1,39 @@
+
+state={
+	id=665
+	name="STATE_665"
+	resources={
+		aluminium=22.000
+		oil=126.000
+		steel=28.000
+	}
+
+	history={
+		owner = VEN
+		victory_points = {
+			10855 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			4526 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = VEN
+		add_core_of = X19
+	}
+
+	provinces={
+		1944 1997 2052 4526 5088 10855 12772 
+	}
+	manpower=1643096
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

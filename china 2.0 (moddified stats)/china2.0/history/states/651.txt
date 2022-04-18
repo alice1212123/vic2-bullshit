@@ -1,0 +1,33 @@
+
+state={
+	id=651
+	name="STATE_651"
+
+	history={
+		owner = W07
+		victory_points = {
+			13048 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			13048 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = W07
+		add_claim_by = USA
+	}
+
+	provinces={
+		13048 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

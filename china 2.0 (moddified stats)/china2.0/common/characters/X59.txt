@@ -1,0 +1,64 @@
+characters={
+	X59_gopinathdeva_rao={
+		name=X59_gopinathdeva_rao
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X59_dibvyasimhadeva_mohaptra={
+		name=X59_dibvyasimhadeva_mohaptra
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X59_ramachandradeva_rao={
+		name=X59_ramachandradeva_rao
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=5
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X59_ramachandradeva_rao_1={
+		name=X59_ramachandradeva_rao_1
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X59_ramachandradeva_mishra={
+		name=X59_ramachandradeva_mishra
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_PRF_Iftikhar_'Ali_Khan_of_Jaora.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

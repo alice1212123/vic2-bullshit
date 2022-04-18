@@ -1,0 +1,16 @@
+characters={
+	X79_pascal_von_hessen_darmstadt={
+		name=X79_pascal_von_hessen_darmstadt
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

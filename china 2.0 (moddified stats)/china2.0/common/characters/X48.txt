@@ -1,0 +1,16 @@
+characters={
+	X48_james_dumont={
+		name=X48_james_dumont
+		portraits={
+			civilian={
+				large="gfx/leaders/North_American_Native/portrait_nat_north_democratic.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

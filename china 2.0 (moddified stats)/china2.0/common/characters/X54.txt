@@ -1,0 +1,16 @@
+characters={
+	X54_eugene_taylor={
+		name=X54_eugene_taylor
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

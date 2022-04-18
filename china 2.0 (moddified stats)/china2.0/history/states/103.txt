@@ -1,0 +1,31 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = ECU
+		victory_points = {
+			8149 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = ECU
+		add_core_of = X19
+		add_claim_by = PRU
+	}
+
+	provinces={
+		8149 12869 
+	}
+	manpower=203088
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

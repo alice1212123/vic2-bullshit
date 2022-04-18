@@ -1,0 +1,76 @@
+characters={
+	PRU_eduardo_toro={
+		name=PRU_eduardo_toro
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_ignacio_melgarejo={
+		name=PRU_ignacio_melgarejo
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	PRU_antonio_pezet={
+		name=PRU_antonio_pezet
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_juan_antonio_errazuriz={
+		name=PRU_juan_antonio_errazuriz
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_tomas_ballivian={
+		name=PRU_tomas_ballivian
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	PRU_juan_figueroa={
+		name=PRU_juan_figueroa
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_Bolivia_Carlos_Quiroga.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

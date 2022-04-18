@@ -1,0 +1,64 @@
+characters={
+	X26_sawai_appa_sahib={
+		name=X26_sawai_appa_sahib
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_bajirao_phadnis={
+		name=X26_bajirao_phadnis
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_venkatji_appa_sahib={
+		name=X26_venkatji_appa_sahib
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_shambhaji_baji_rao={
+		name=X26_shambhaji_baji_rao
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_raghunath_rao={
+		name=X26_raghunath_rao
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_BHC_Jawaharlal_Nehru.tga"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

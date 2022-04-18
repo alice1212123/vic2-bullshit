@@ -1,0 +1,103 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10062
+		task_force = {
+			name = "1st Fleet"
+			location = 10062
+			ship = { name = "1st Fuzhou Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Zhanjiang Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Hong Kong Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Huizhou Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "2nd Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "3rd Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "4th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "5th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "6th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "7th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "8th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "9th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "10th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "11th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "12th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "13th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "14th Hong Kong Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 7014
+		task_force = {
+			name = "2nd Fleet"
+			location = 7014
+			ship = { name = "1st Port Arthur Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Shanghai Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Weihaiwei Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Ningbo Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Chengde Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Wuding Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "2nd Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "3rd Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "4th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "5th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "6th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "7th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "8th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "9th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "10th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "11th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "12th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "13th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "14th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "15th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "16th Shanghai Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 7186
+		task_force = {
+			name = "3rd Fleet"
+			location = 7186
+			ship = { name = "1st Haishenwai Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Pogobi Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "1st Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "2nd Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "3rd Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "4th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "5th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "6th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "7th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "8th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "9th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "10th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "11th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "12th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "13th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+			ship = { name = "14th Ningbo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = CHI } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "CHI"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "CHI"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

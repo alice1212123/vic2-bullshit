@@ -1,0 +1,16 @@
+characters={
+	HON_jose_francisco_ubico={
+		name=HON_jose_francisco_ubico
+		portraits={
+			civilian={
+				large="gfx/leaders/BRA/Portrait_Brazil_Getulio_Vargas.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

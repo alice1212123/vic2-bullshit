@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1639
+		task_force = {
+			name = "1st Fleet"
+			location = 1639
+			ship = { name = "ARA Bermejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Catamarca" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Constitución" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Córdoba" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Corrientes" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+			ship = { name = "ARA Entrerríos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ARG } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "ARG"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "ARG"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

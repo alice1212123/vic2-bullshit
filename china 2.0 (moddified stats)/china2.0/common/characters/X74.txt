@@ -1,0 +1,16 @@
+characters={
+	X74_raffaele_sacchi={
+		name=X74_raffaele_sacchi
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_SRI_Giacomo_Matteotti.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

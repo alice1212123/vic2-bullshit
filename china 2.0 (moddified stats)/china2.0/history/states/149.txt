@@ -1,0 +1,35 @@
+
+state={
+	id=149
+	name="STATE_149"
+	resources={
+		tungsten=13.000
+	}
+
+	history={
+		owner = X87
+		victory_points = {
+			1908 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X28
+		add_core_of = X46
+		add_core_of = X87
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1908 2054 4971 7905 7998 
+	}
+	manpower=5340708
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

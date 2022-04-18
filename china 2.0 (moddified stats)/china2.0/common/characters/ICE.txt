@@ -1,0 +1,16 @@
+characters={
+	ICE_sigurdur_arnorsson={
+		name=ICE_sigurdur_arnorsson
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

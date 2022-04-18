@@ -1,0 +1,76 @@
+characters={
+	PER_murad_buzarjomehri={
+		name=PER_murad_buzarjomehri
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	PER_massoud_rokni={
+		name=PER_massoud_rokni
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PER_ebrahim_davallu={
+		name=PER_ebrahim_davallu
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PER_esmail_khuzai={
+		name=PER_esmail_khuzai
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	PER_muhsin_jahanbani={
+		name=PER_muhsin_jahanbani
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	PER_ebrahim_ayrum={
+		name=PER_ebrahim_ayrum
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_KUR_Mahmud_Barzanji.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

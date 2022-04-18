@@ -1,0 +1,16 @@
+characters={
+	W03_mario_braga={
+		name=W03_mario_braga
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_CAR_Mariano_Gamir_Ulibarri.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

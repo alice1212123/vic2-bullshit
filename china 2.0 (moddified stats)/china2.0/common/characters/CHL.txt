@@ -1,0 +1,76 @@
+characters={
+	CHL_jose_miguel_guilarte={
+		name=CHL_jose_miguel_guilarte
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHL_pablo_orbegoso={
+		name=CHL_pablo_orbegoso
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHL_rufino_campero={
+		name=CHL_rufino_campero
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHL_ladislao_errazuriz={
+		name=CHL_ladislao_errazuriz
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHL_andres_errazuriz={
+		name=CHL_andres_errazuriz
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHL_emilio_echenique={
+		name=CHL_emilio_echenique
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/portrait_south_america_generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

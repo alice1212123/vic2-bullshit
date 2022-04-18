@@ -1,0 +1,16 @@
+characters={
+	SAX_peter_von_wettin={
+		name=SAX_peter_von_wettin
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

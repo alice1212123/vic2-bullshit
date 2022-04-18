@@ -1,0 +1,16 @@
+characters={
+	HAN_erich_von_alten={
+		name=HAN_erich_von_alten
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_Germany_Wilhelm_III.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

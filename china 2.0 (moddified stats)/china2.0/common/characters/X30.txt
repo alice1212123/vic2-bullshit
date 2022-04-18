@@ -1,0 +1,64 @@
+characters={
+	X30_muhammad_kunwar={
+		name=X30_muhammad_kunwar
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_bhagwant_bhatti={
+		name=X30_bhagwant_bhatti
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_veer_ur_rahman={
+		name=X30_veer_ur_rahman
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X30_fateh_ur_rahman={
+		name=X30_fateh_ur_rahman
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_rao_tiwana={
+		name=X30_rao_tiwana
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_PRF_Bhupinder_Singh.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

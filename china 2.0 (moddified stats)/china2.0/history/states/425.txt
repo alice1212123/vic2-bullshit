@@ -1,0 +1,32 @@
+
+state={
+	id=425
+	name="STATE_425"
+	resources={
+		chromium=3.000
+	}
+
+	history={
+		owner = PER
+		victory_points = {
+			10837 25 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 7
+
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		7969 8093 10837 10922 12704 12818 
+	}
+	manpower=1530376
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

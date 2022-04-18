@@ -1,0 +1,35 @@
+
+state={
+	id=316
+	name="STATE_316"
+	resources={
+		aluminium=1.000
+		chromium=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X25
+		victory_points = {
+			7430 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RAJ
+		add_core_of = X25
+	}
+
+	provinces={
+		7430 10030 12781 
+	}
+	manpower=871264
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

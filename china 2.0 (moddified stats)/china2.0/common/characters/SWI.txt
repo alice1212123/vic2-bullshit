@@ -1,0 +1,64 @@
+characters={
+	SWI_martin_chaudet={
+		name=SWI_martin_chaudet
+		corps_commander={
+			skill=4
+			attack_skill=1
+			defense_skill=7
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWI_ernst_munzinger={
+		name=SWI_ernst_munzinger
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWI_martin_ador={
+		name=SWI_martin_ador
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWI_ernst_naff={
+		name=SWI_ernst_naff
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	SWI_wilhelm_von_steiger={
+		name=SWI_wilhelm_von_steiger
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

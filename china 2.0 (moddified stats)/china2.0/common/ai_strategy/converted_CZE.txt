@@ -1,0 +1,18 @@
+﻿converted_war_strategies_CZE = {
+	enable = {
+		tag = CZE
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_CZE = {
+	enable = {
+		tag = CZE
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

@@ -1,0 +1,64 @@
+characters={
+	SWE_per_bildt={
+		name=SWE_per_bildt
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	SWE_ludvig_ehnemark={
+		name=SWE_ludvig_ehnemark
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	SWE_august_bildt={
+		name=SWE_august_bildt
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	SWE_knut_von_otter={
+		name=SWE_knut_von_otter
+		navy_leader={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=4
+			legacy_id=0
+		}
+	}
+
+	SWE_per_brahe={
+		name=SWE_per_brahe
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Winston_Churchill.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

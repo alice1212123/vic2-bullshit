@@ -1,0 +1,16 @@
+characters={
+	WUR_engelbert_blos={
+		name=WUR_engelbert_blos
+		portraits={
+			civilian={
+				large="gfx/leaders/Western_European/Portrait_Austria_Otto_I.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

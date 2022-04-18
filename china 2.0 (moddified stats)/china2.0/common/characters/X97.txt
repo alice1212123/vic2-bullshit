@@ -1,0 +1,16 @@
+characters={
+	X97_manfred_von_roon={
+		name=X97_manfred_von_roon
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}
