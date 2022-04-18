@@ -1,0 +1,76 @@
+characters={
+	ALG_abd_allah_al_araishi={
+		name=ALG_abd_allah_al_araishi
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ALG_jamal_al_araishi={
+		name=ALG_jamal_al_araishi
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ALG_halil_al_wujdi={
+		name=ALG_halil_al_wujdi
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ALG_khalid_al_araishi={
+		name=ALG_khalid_al_araishi
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	ALG_hisham_ibn_mustafa={
+		name=ALG_hisham_ibn_mustafa
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	ALG_abd_allah_al_wahrani={
+		name=ALG_abd_allah_al_wahrani
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

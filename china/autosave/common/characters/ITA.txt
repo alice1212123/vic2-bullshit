@@ -1,0 +1,76 @@
+characters={
+	ITA_andrea_emo={
+		name=ITA_andrea_emo
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_angelo_canevaro={
+		name=ITA_angelo_canevaro
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_fabrizio_pelloux={
+		name=ITA_fabrizio_pelloux
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_andrea_baratieri={
+		name=ITA_andrea_baratieri
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_angelo_pacoret_de_saint_bon={
+		name=ITA_angelo_pacoret_de_saint_bon
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	ITA_ambrogio_menabrea={
+		name=ITA_ambrogio_menabrea
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Italy_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

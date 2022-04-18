@@ -1,0 +1,16 @@
+characters={
+	X24_innocenzo_caviglia={
+		name=X24_innocenzo_caviglia
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_SPR_Jaime_I.tga"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

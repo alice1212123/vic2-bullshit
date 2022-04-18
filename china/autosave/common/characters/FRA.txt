@@ -1,0 +1,88 @@
+characters={
+	FRA_hugo_bazaine={
+		name=FRA_hugo_bazaine
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_armand_lebouef={
+		name=FRA_armand_lebouef
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	FRA_jacques_lebouef={
+		name=FRA_jacques_lebouef
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_thomas_bosquet={
+		name=FRA_thomas_bosquet
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_philippe_de_macmahon={
+		name=FRA_philippe_de_macmahon
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_eugene_de_castellane={
+		name=FRA_eugene_de_castellane
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_leroy_pellissier={
+		name=FRA_leroy_pellissier
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Portrait_Denmark_Erik_Scavenius.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

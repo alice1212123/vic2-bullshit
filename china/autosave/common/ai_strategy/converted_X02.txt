@@ -1,0 +1,73 @@
+﻿converted_war_strategies_X02 = {
+	enable = {
+		tag = X02
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 272
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 64
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIA"
+		value = 40
+	}
+}
+
+converted_diplo_strategies_X02 = {
+	enable = {
+		tag = X02
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 299
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 21
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIA"
+		value = 13
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MAD"
+		value = 89
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "KHI"
+		value = 50
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LAO"
+		value = 40
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "OMA"
+		value = 31
+	}
+}

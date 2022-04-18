@@ -1,0 +1,88 @@
+characters={
+	CHI_nalan_xingde={
+		name=CHI_nalan_xingde
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	CHI_zhao_xingde={
+		name=CHI_zhao_xingde
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	CHI_ma_kang'an={
+		name=CHI_ma_kang'an
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHI_fu_xingde={
+		name=CHI_fu_xingde
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHI_changlin_xiangying={
+		name=CHI_changlin_xiangying
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHI_sonin_shangzhi={
+		name=CHI_sonin_shangzhi
+		navy_leader={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	CHI_fu_xiangying={
+		name=CHI_fu_xiangying
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

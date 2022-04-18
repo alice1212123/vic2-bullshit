@@ -1,0 +1,25 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 3083
+		task_force = {
+			name = "1st Fleet"
+			location = 3083
+			ship = { name = "Viipuri" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Early Destroyer" } } }
+			ship = { name = "Oulu" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FIN version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FIN"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

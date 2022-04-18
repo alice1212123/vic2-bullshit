@@ -1,0 +1,64 @@
+characters={
+	BRM_singu_min={
+		name=BRM_singu_min
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_naungdawkyi_myo={
+		name=BRM_naungdawkyi_myo
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_tharawadi_min={
+		name=BRM_tharawadi_min
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_maha_dabayin={
+		name=BRM_maha_dabayin
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRM_thibaw_bandula={
+		name=BRM_thibaw_bandula
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

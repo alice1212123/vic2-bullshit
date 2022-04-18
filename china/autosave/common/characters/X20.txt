@@ -1,0 +1,64 @@
+characters={
+	X20_felicjan_soltyk={
+		name=X20_felicjan_soltyk
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X20_ignacy_bem={
+		name=X20_ignacy_bem
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X20_eustachy_wybicki={
+		name=X20_eustachy_wybicki
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X20_witold_mierolawski={
+		name=X20_witold_mierolawski
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X20_henryk_rydz_smigly={
+		name=X20_henryk_rydz_smigly
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/portrait_lat_fricis_menders.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

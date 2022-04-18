@@ -1,0 +1,16 @@
+characters={
+	X73_sacho_ginocho={
+		name=X73_sacho_ginocho
+		portraits={
+			civilian={
+				large="gfx/leaders/African/Portrait_SOM_Haji_Bashir_Ismail_Yusuf.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

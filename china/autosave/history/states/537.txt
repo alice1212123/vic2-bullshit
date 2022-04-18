@@ -1,0 +1,33 @@
+
+state={
+	id=537
+	name="STATE_537"
+
+	history={
+		owner = X71
+		victory_points = {
+			1351 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			1351 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = PHI
+		add_core_of = X71
+	}
+
+	provinces={
+		1351 
+	}
+	manpower=20958
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

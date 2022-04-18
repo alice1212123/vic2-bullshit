@@ -1,0 +1,32 @@
+
+state={
+	id=101
+	name="STATE_101"
+
+	history={
+		owner = ECU
+		victory_points = {
+			5023 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			5023 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = ECU
+	}
+
+	provinces={
+		5023 
+	}
+	manpower=82968
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

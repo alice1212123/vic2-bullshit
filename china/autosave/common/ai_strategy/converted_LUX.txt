@@ -1,0 +1,123 @@
+﻿converted_war_strategies_LUX = {
+	enable = {
+		tag = LUX
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 2854
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 293
+	}
+	ai_strategy = {
+		type = conquer
+		id = "DEN"
+		value = 156
+	}
+}
+
+converted_diplo_strategies_LUX = {
+	enable = {
+		tag = LUX
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 397
+	}
+	ai_strategy = {
+		type = contain
+		id = "BEL"
+		value = 344
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 319
+	}
+	ai_strategy = {
+		type = contain
+		id = "DEN"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "SWI"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X20"
+		value = 38
+	}
+	ai_strategy = {
+		type = contain
+		id = "POL"
+		value = 16
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 358
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 208
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BEL"
+		value = 91
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "DEN"
+		value = 52
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 145
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"
+		value = 107
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ITA"
+		value = 42
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X20"
+		value = 83
+	}
+}

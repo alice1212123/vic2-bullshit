@@ -1,0 +1,21 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			has_government = absolutist
+			ROOT = {
+				OR = {
+					has_government = democratic
+				}
+			}
+		}
+		AND = {
+			has_government = democratic
+			ROOT = {
+				OR = {
+					has_government = absolutist
+				}
+			}
+		}
+	}
+}

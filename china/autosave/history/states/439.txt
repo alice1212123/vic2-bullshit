@@ -1,0 +1,36 @@
+
+state={
+	id=439
+	name="STATE_439"
+	resources={
+		tungsten=76.000
+	}
+
+	history={
+		owner = POR
+		victory_points = {
+			11805 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			11805 = {
+				naval_base = 4
+			}
+			air_base = 5
+
+		}
+		add_core_of = POR
+	}
+
+	provinces={
+		799 844 924 970 3798 3861 6924 11768 11805 
+	}
+	manpower=1159948
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=339
+	name="STATE_339"
+	resources={
+		tungsten=9.000
+	}
+
+	history={
+		owner = X16
+		victory_points = {
+			4984 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = X16
+	}
+
+	provinces={
+		4149 4984 10847 12886 
+	}
+	manpower=1168972
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

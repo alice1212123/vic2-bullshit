@@ -1,0 +1,98 @@
+﻿converted_war_strategies_MOR = {
+	enable = {
+		tag = MOR
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 1727
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 319
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 192
+	}
+}
+
+converted_diplo_strategies_MOR = {
+	enable = {
+		tag = MOR
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "SPR"
+		value = 281
+	}
+	ai_strategy = {
+		type = contain
+		id = "ALG"
+		value = 131
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPR"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 83
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 50
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 161
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 148
+	}
+	ai_strategy = {
+		type = alliance
+		id = "POR"
+		value = 16
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X11"
+		value = 133
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X04"
+		value = 57
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X18"
+		value = 57
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X28"
+		value = 57
+	}
+}

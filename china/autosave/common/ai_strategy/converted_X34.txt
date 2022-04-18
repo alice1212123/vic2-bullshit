@@ -1,0 +1,68 @@
+﻿converted_war_strategies_X34 = {
+	enable = {
+		tag = X34
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 2669
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AUS"
+		value = 672
+	}
+}
+
+converted_diplo_strategies_X34 = {
+	enable = {
+		tag = X34
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X27"
+		value = 305
+	}
+	ai_strategy = {
+		type = contain
+		id = "X24"
+		value = 167
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X27"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X24"
+		value = 228
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUN"
+		value = 12
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X27"
+		value = 150
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X24"
+		value = 50
+	}
+}

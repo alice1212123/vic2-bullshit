@@ -1,0 +1,32 @@
+
+state={
+	id=208
+	name="STATE_208"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X50
+		victory_points = {
+			11145 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X50
+	}
+
+	provinces={
+		5160 10860 11145 
+	}
+	manpower=851308
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

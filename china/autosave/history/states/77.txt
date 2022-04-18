@@ -1,0 +1,36 @@
+
+state={
+	id=77
+	name="STATE_77"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			4073 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			4073 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_core_of = EGY
+	}
+
+	provinces={
+		4073 12049 
+	}
+	manpower=1202480
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

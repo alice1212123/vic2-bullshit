@@ -1,0 +1,37 @@
+
+state={
+	id=204
+	name="STATE_204"
+	resources={
+		aluminium=0.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X51
+		victory_points = {
+			2050 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2050 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X51
+	}
+
+	provinces={
+		2050 12731 
+	}
+	manpower=2064132
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=200
+	name="STATE_200"
+
+	history={
+		owner = ENG
+		victory_points = {
+			2063 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12941 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1905 1964 1966 2020 2063 4909 5065 5068 8094 10777 10818 10833 10891 10921 11014 12759 12814 12840 12941 
+	}
+	manpower=1252852
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

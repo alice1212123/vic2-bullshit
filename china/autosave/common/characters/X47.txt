@@ -1,0 +1,64 @@
+characters={
+	X47_hehlokazulu_kamdlela={
+		name=X47_hehlokazulu_kamdlela
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X47_zibhebhu_kampande={
+		name=X47_zibhebhu_kampande
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X47_sekethwayo_kamvundlana={
+		name=X47_sekethwayo_kamvundlana
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X47_senzagkhona_kamaphitha={
+		name=X47_senzagkhona_kamaphitha
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X47_dabulamanzi_kamvundlana={
+		name=X47_dabulamanzi_kamvundlana
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Africa_Generic_new_2.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

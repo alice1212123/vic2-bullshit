@@ -1,0 +1,39 @@
+
+state={
+	id=372
+	name="STATE_372"
+	resources={
+		aluminium=7.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			9752 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 4
+			arms_factory = 0
+			6946 = {
+				naval_base = 10
+			}
+			air_base = 10
+
+		}
+		add_core_of = ITA
+		add_core_of = X24
+		add_core_of = X27
+		add_core_of = X34
+		add_claim_by = AUS
+	}
+
+	provinces={
+		3773 3976 6790 6946 6973 9752 
+	}
+	manpower=2420672
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

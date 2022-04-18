@@ -1,0 +1,76 @@
+characters={
+	YEM_ibrahim_al_basri={
+		name=YEM_ibrahim_al_basri
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	YEM_khalid_ibn_abd_al_qadir={
+		name=YEM_khalid_ibn_abd_al_qadir
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	YEM_ali_ibn_ishaq={
+		name=YEM_ali_ibn_ishaq
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	YEM_ahmad_al_himsi={
+		name=YEM_ahmad_al_himsi
+		corps_commander={
+			skill=4
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	YEM_umar_ibn_ishaq={
+		name=YEM_umar_ibn_ishaq
+		navy_leader={
+			skill=4
+			attack_skill=6
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	YEM_hasan_ibn_salim={
+		name=YEM_hasan_ibn_salim
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_Persia_Ahmad_Shah_Qajar.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

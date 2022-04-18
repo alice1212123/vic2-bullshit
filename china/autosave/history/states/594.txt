@@ -1,0 +1,33 @@
+
+state={
+	id=594
+	name="STATE_594"
+
+	history={
+		owner = TUR
+		victory_points = {
+			1065 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			1108 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = EGY
+		add_claim_by = TUR
+	}
+
+	provinces={
+		792 1065 1108 11919 
+	}
+	manpower=485516
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

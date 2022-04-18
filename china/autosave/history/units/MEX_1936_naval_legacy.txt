@@ -1,0 +1,63 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 8057
+		task_force = {
+			name = "3rd Fleet"
+			location = 8057
+			ship = { name = "Olmec" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Teotihaucan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Teotihaucan 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Olmec 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Nahua" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Azcapotzalco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Culiacán Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "2nd Guaymas Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Usumacinta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Tiltepec" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 13088
+		task_force = {
+			name = "4th Fleet"
+			location = 13088
+			ship = { name = "Corralero" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "1st Veracruz Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10730
+		task_force = {
+			name = "1st Fleet"
+			location = 10730
+			ship = { name = "Tehuantepec" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Rio Grande" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+			ship = { name = "Pastoria" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MEX } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "MEX"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "MEX"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

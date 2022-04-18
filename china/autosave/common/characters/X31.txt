@@ -1,0 +1,64 @@
+characters={
+	X31_sarel_de_beer={
+		name=X31_sarel_de_beer
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X31_siener_de_beer={
+		name=X31_siener_de_beer
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X31_christiaan_retief={
+		name=X31_christiaan_retief
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X31_piet_botha={
+		name=X31_piet_botha
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X31_petrus_de_wet={
+		name=X31_petrus_de_wet
+		portraits={
+			civilian={
+				large="gfx/leaders/NZL/Portrait_NewZealand_Peter_Fraser.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=435
+	name="STATE_435"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = PRU
+		victory_points = {
+			12969 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			2156 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2156 5162 8199 12969 
+	}
+	manpower=362172
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

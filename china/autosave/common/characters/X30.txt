@@ -1,0 +1,52 @@
+characters={
+	X30_hisham_ibn_mustafa={
+		name=X30_hisham_ibn_mustafa
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_fuad_ibn_muhammad={
+		name=X30_fuad_ibn_muhammad
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X30_abu_bakr_ibn_mustafa={
+		name=X30_abu_bakr_ibn_mustafa
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X30_ibrahim_ibn_hisham={
+		name=X30_ibrahim_ibn_hisham
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_Afghan_Mohammed_Zahir.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

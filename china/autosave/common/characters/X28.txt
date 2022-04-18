@@ -1,0 +1,64 @@
+characters={
+	X28_tailapa_rani={
+		name=X28_tailapa_rani
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X28_vishnuvardhana_wodeyar={
+		name=X28_vishnuvardhana_wodeyar
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X28_krisnaraja_gowda={
+		name=X28_krisnaraja_gowda
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X28_guvida_nayaka={
+		name=X28_guvida_nayaka
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X28_pulakesi_wodeyar={
+		name=X28_pulakesi_wodeyar
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Madras_Periyar_Ramasavy.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

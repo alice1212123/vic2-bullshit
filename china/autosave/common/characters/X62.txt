@@ -1,0 +1,16 @@
+characters={
+	X62_manfred_von_roon={
+		name=X62_manfred_von_roon
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

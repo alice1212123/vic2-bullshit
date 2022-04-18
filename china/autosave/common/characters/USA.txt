@@ -1,0 +1,88 @@
+characters={
+	USA_chester_conrad={
+		name=USA_chester_conrad
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_edward_barnes={
+		name=USA_edward_barnes
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_lafayette_andrews={
+		name=USA_lafayette_andrews
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_matthew_crittenden={
+		name=USA_matthew_crittenden
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_michael_wright={
+		name=USA_michael_wright
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_thomas_buell={
+		name=USA_thomas_buell
+		navy_leader={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_ambrose_davis={
+		name=USA_ambrose_davis
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

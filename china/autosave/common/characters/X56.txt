@@ -1,0 +1,16 @@
+characters={
+	X56_leroy_davout={
+		name=X56_leroy_davout
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

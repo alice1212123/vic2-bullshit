@@ -1,0 +1,76 @@
+characters={
+	X42_eduardo_montes={
+		name=X42_eduardo_montes
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X42_rafael_menendez={
+		name=X42_rafael_menendez
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X42_doroteo_fernandez={
+		name=X42_doroteo_fernandez
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X42_lorenzo_martinez={
+		name=X42_lorenzo_martinez
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X42_oscar_regalado={
+		name=X42_oscar_regalado
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X42_fruto_chamorro={
+		name=X42_fruto_chamorro
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/portrait_els_maximiliano_hernandez_martinez.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

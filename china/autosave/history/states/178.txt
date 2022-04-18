@@ -1,0 +1,38 @@
+
+state={
+	id=178
+	name="STATE_178"
+	resources={
+		aluminium=8.000
+		chromium=5.000
+		oil=3.000
+		steel=11.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			7798 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			7798 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1759 2130 2155 2183 2189 4776 4791 5181 5187 7755 7798 7811 10553 10581 10622 10637 10665 12576 12645 12932 
+	}
+	manpower=545484
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

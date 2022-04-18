@@ -1,0 +1,33 @@
+
+state={
+	id=81
+	name="STATE_81"
+
+	history={
+		owner = CHI
+		victory_points = {
+			12766 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			5047 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = EGY
+		add_claim_by = ETH
+	}
+
+	provinces={
+		4985 5017 5047 5091 8043 8124 12723 12766 
+	}
+	manpower=1620944
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

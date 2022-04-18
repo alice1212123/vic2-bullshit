@@ -1,0 +1,16 @@
+characters={
+	IRE_thomas_white={
+		name=IRE_thomas_white
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

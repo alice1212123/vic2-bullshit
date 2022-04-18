@@ -1,0 +1,34 @@
+
+state={
+	id=141
+	name="STATE_141"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = X52
+		victory_points = {
+			2076 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = X33
+		add_core_of = X35
+		add_core_of = X52
+	}
+
+	provinces={
+		1107 1129 2002 2076 4979 7106 7903 8007 8022 8106 9084 10066 10139 10173 10729 10772 10843 10887 10898 12005 12708 12792 12822 
+	}
+	manpower=8747308
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

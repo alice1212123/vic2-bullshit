@@ -1,0 +1,16 @@
+characters={
+	X72_amos_sedgwick={
+		name=X72_amos_sedgwick
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

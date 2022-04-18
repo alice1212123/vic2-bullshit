@@ -1,0 +1,29 @@
+
+state={
+	id=20
+	name="STATE_20"
+
+	history={
+		owner = X05
+		victory_points = {
+			11995 15 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X05
+	}
+
+	provinces={
+		2105 11995 
+	}
+	manpower=358092
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

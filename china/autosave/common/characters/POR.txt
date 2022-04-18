@@ -1,0 +1,64 @@
+characters={
+	POR_damiao_de_braganca_coburgo={
+		name=POR_damiao_de_braganca_coburgo
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	POR_raul_moniz={
+		name=POR_raul_moniz
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POR_jose_nunes={
+		name=POR_jose_nunes
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POR_roberto_de_braganca={
+		name=POR_roberto_de_braganca
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	POR_jorge_amaral={
+		name=POR_jorge_amaral
+		portraits={
+			civilian={
+				large="gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

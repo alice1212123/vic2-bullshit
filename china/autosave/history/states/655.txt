@@ -1,0 +1,33 @@
+
+state={
+	id=655
+	name="STATE_655"
+	resources={
+		oil=6.000
+		tungsten=9.000
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			7869 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		3606 7869 7891 
+	}
+	manpower=2476104
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

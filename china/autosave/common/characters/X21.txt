@@ -1,0 +1,64 @@
+characters={
+	X21_fakirbhai_solanki={
+		name=X21_fakirbhai_solanki
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X21_madhavsingh_parmar={
+		name=X21_madhavsingh_parmar
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X21_balwantry_modhvadia={
+		name=X21_balwantry_modhvadia
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X21_manubhai_modhvadia={
+		name=X21_manubhai_modhvadia
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=0
+		}
+	}
+
+	X21_jivraj_pansara={
+		name=X21_jivraj_pansara
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/portrait_PAK_Mirza_Mughal.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

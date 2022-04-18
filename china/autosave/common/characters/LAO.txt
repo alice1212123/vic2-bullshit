@@ -1,0 +1,64 @@
+characters={
+	LAO_sakkarin_vong={
+		name=LAO_sakkarin_vong
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LAO_setthathirath_intharavong={
+		name=LAO_setthathirath_intharavong
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	LAO_phraya_bun={
+		name=LAO_phraya_bun
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LAO_unkeo_long={
+		name=LAO_unkeo_long
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LAO_nanthasen_long={
+		name=LAO_nanthasen_long
+		portraits={
+			civilian={
+				large="gfx/leaders/Indo_Chinese_Nesia/Portrait_Siam_Rama_IX.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

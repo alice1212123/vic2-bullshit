@@ -1,0 +1,16 @@
+characters={
+	X43_cesare_pallavicino={
+		name=X43_cesare_pallavicino
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/Portrait_Spain_Manuel_Azana.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

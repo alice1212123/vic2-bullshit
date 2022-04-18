@@ -1,0 +1,76 @@
+characters={
+	BRA_pedro_saldanha_da_gama={
+		name=BRA_pedro_saldanha_da_gama
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_pedro_da_camara={
+		name=BRA_pedro_da_camara
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_vital_de_souza_neto={
+		name=BRA_vital_de_souza_neto
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_antonio_cabral_da_silva={
+		name=BRA_antonio_cabral_da_silva
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_gaspar_moreira={
+		name=BRA_gaspar_moreira
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	BRA_isaias_de_braganca={
+		name=BRA_isaias_de_braganca
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

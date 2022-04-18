@@ -1,0 +1,35 @@
+
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		oil=15.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			10912 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1981 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = VEN
+	}
+
+	provinces={
+		1981 5317 7915 8050 10736 10767 10823 10849 10879 10912 
+	}
+	manpower=1121188
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,88 @@
+characters={
+	JAP_takayoshi_honjo={
+		name=JAP_takayoshi_honjo
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	JAP_shigeto_tachibana={
+		name=JAP_shigeto_tachibana
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_tadakuni_dewa={
+		name=JAP_tadakuni_dewa
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_tomasaburo_masaki={
+		name=JAP_tomasaburo_masaki
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_shigeru_nire={
+		name=JAP_shigeru_nire
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_taruhito_togo={
+		name=JAP_taruhito_togo
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	JAP_yusaku_nozu={
+		name=JAP_yusaku_nozu
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Hirohito.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

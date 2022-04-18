@@ -1,0 +1,35 @@
+
+state={
+	id=378
+	name="STATE_378"
+	resources={
+		chromium=7.000
+	}
+
+	history={
+		owner = MAD
+		victory_points = {
+			5128 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			10993 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = MAD
+	}
+
+	provinces={
+		5128 5222 8188 10993 
+	}
+	manpower=1567940
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

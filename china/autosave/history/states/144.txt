@@ -1,0 +1,37 @@
+
+state={
+	id=144
+	name="STATE_144"
+	resources={
+		rubber=0.000
+		steel=7.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = X52
+		victory_points = {
+			4245 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			9935 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X52
+	}
+
+	provinces={
+		1159 2843 4062 4162 4245 7078 7124 7220 9935 9991 10035 11911 11968 12010 12050 
+	}
+	manpower=12588412
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10993
+		task_force = {
+			name = "1st Fleet"
+			location = 10993
+			ship = { name = "Radama" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = MAD } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "MAD"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "MAD"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

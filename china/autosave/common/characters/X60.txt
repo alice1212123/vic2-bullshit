@@ -1,0 +1,16 @@
+characters={
+	X60_manfred_von_roon={
+		name=X60_manfred_von_roon
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

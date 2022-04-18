@@ -1,0 +1,64 @@
+characters={
+	UAE_fuad_ibn_yusuf={
+		name=UAE_fuad_ibn_yusuf
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UAE_halil_ibn_hisham={
+		name=UAE_halil_ibn_hisham
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UAE_yusuf_ibn_yusuf={
+		name=UAE_yusuf_ibn_yusuf
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UAE_ja'far_ibn_ahmad={
+		name=UAE_ja'far_ibn_ahmad
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	UAE_uthman_ibn_salim={
+		name=UAE_uthman_ibn_salim
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_Persia_Hassan_Mirza_Qajar.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

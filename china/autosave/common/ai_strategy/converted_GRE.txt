@@ -1,0 +1,133 @@
+﻿converted_war_strategies_GRE = {
+	enable = {
+		tag = GRE
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 2845
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 216
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 56
+	}
+}
+
+converted_diplo_strategies_GRE = {
+	enable = {
+		tag = GRE
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 191
+	}
+	ai_strategy = {
+		type = contain
+		id = "SER"
+		value = 96
+	}
+	ai_strategy = {
+		type = contain
+		id = "X44"
+		value = 96
+	}
+	ai_strategy = {
+		type = contain
+		id = "EGY"
+		value = 96
+	}
+	ai_strategy = {
+		type = contain
+		id = "POL"
+		value = 87
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 74
+	}
+	ai_strategy = {
+		type = contain
+		id = "MOL"
+		value = 71
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 61
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 16
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"
+		value = 194
+	}
+	ai_strategy = {
+		type = alliance
+		id = "GER"
+		value = 117
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 102
+	}
+	ai_strategy = {
+		type = protect
+		id = "MNT"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CHL"
+		value = 97
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SER"
+		value = 71
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "UKR"
+		value = 54
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "FIN"
+		value = 28
+	}
+}

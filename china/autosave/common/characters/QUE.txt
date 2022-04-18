@@ -1,0 +1,16 @@
+characters={
+	QUE_gilles_jotte={
+		name=QUE_gilles_jotte
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

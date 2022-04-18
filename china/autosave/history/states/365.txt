@@ -1,0 +1,33 @@
+
+state={
+	id=365
+	name="STATE_365"
+	resources={
+		aluminium=22.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			6631 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = ITA
+	}
+
+	provinces={
+		656 6631 6675 9598 9630 11598 11615 
+	}
+	manpower=1358352
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

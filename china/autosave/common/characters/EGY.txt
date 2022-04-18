@@ -1,0 +1,76 @@
+characters={
+	EGY_shukru_bey={
+		name=EGY_shukru_bey
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EGY_yusuf_bey={
+		name=EGY_yusuf_bey
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EGY_suleyman_pasha={
+		name=EGY_suleyman_pasha
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EGY_ismet_pasha={
+		name=EGY_ismet_pasha
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	EGY_fevzi_pasha={
+		name=EGY_fevzi_pasha
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	EGY_abdullah_pasha={
+		name=EGY_abdullah_pasha
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_Afgahnistan_Habibullah_Khan.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

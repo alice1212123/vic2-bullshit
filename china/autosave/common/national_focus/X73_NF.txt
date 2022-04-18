@@ -1,0 +1,15 @@
+focus_tree = {
+	id = X73_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = X73
+		}
+	}
+	
+	default = no
+	
+}

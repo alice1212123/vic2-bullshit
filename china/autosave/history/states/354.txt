@@ -1,0 +1,32 @@
+
+state={
+	id=354
+	name="STATE_354"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			686 7 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		682 686 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11627 11663 
+	}
+	manpower=5451676
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,88 @@
+characters={
+	AUS_rudolf_von_tegetthoff={
+		name=AUS_rudolf_von_tegetthoff
+		corps_commander={
+			skill=4
+			attack_skill=5
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	AUS_walter_von_haynau={
+		name=AUS_walter_von_haynau
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	AUS_julius_haus={
+		name=AUS_julius_haus
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	AUS_lothar_zu_hohenlohe={
+		name=AUS_lothar_zu_hohenlohe
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	AUS_michael_dankl={
+		name=AUS_michael_dankl
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	AUS_reinhold_blos={
+		name=AUS_reinhold_blos
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	AUS_lothar_mergenthaler={
+		name=AUS_lothar_mergenthaler
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_George_VI.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

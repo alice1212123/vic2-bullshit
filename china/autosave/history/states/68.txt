@@ -1,0 +1,34 @@
+
+state={
+	id=68
+	name="STATE_68"
+	resources={
+		steel=2.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			4183 7 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 9
+			arms_factory = 3
+			air_base = 4
+
+		}
+		add_core_of = CHI
+		add_core_of = GXC
+	}
+
+	provinces={
+		1053 1153 1628 3992 4038 4081 4083 4156 4183 4185 7004 7007 7054 7172 7199 7653 9942 9984 10057 10112 10114 10501 11945 11988 12030 12495 
+	}
+	manpower=37833672
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

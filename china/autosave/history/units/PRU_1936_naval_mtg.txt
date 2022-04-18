@@ -1,0 +1,31 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12983
+		task_force = {
+			name = "1st Fleet"
+			location = 12983
+			ship = { name = "Almirante Guise" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Almirante Villar" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "América" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Arno" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Chanchamayo" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Coronel Portillo" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Chorrillos" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+			ship = { name = "Cuzco" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "PRU"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

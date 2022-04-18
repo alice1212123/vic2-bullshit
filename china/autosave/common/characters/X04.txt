@@ -1,0 +1,76 @@
+characters={
+	X04_jivraj_parmar={
+		name=X04_jivraj_parmar
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X04_jivraj_vaghela={
+		name=X04_jivraj_vaghela
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X04_maniraj_solanki={
+		name=X04_maniraj_solanki
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X04_chabildas_parmar={
+		name=X04_chabildas_parmar
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X04_fakirbhai_parmar={
+		name=X04_fakirbhai_parmar
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X04_madhavsingh_vaghela={
+		name=X04_madhavsingh_vaghela
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

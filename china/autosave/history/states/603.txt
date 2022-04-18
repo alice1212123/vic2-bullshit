@@ -1,0 +1,29 @@
+
+state={
+	id=603
+	name="STATE_603"
+
+	history={
+		owner = UKR
+		victory_points = {
+			6429 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = UKR
+	}
+
+	provinces={
+		422 474 513 535 572 3412 3430 3457 3496 3511 6429 6435 6509 6520 6557 9520 9533 11441 11503 11543 
+	}
+	manpower=957328
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

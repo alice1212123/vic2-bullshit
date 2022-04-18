@@ -1,0 +1,64 @@
+characters={
+	X03_alluri_hanumathu={
+		name=X03_alluri_hanumathu
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X03_keneganti_sriramulu={
+		name=X03_keneganti_sriramulu
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X03_alluri_veeresalingam={
+		name=X03_alluri_veeresalingam
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X03_keneganti_nayudu={
+		name=X03_keneganti_nayudu
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X03_venkatadri_sitaramaraju={
+		name=X03_venkatadri_sitaramaraju
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Princely_Osman_Ali_Khan2.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

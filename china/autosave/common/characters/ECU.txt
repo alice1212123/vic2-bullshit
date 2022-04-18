@@ -1,0 +1,76 @@
+characters={
+	ECU_jorge_garcia={
+		name=ECU_jorge_garcia
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ECU_eloy_paez={
+		name=ECU_eloy_paez
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	ECU_diego_daza={
+		name=ECU_diego_daza
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	ECU_carlos_nunez={
+		name=ECU_carlos_nunez
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	ECU_jose_manuel_gomez={
+		name=ECU_jose_manuel_gomez
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	ECU_pedro_salgar={
+		name=ECU_pedro_salgar
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/portrait_col_alfonso_lopez_pumarejo.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=153
+	name="STATE_153"
+	resources={
+		aluminium=5.000
+		rubber=18.000
+	}
+
+	history={
+		owner = X52
+		victory_points = {
+			10278 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10278 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X52
+		add_claim_by = X12
+		add_claim_by = X28
+	}
+
+	provinces={
+		1268 1344 1381 1409 4327 4416 4420 7265 7363 7436 8067 10246 10278 10808 12164 12247 
+	}
+	manpower=18076104
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

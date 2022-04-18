@@ -1,0 +1,64 @@
+characters={
+	X40_eugene_de_wet={
+		name=X40_eugene_de_wet
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X40_danie_kruger={
+		name=X40_danie_kruger
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	X40_christiaan_kruger={
+		name=X40_christiaan_kruger
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X40_koos_de_la_rey={
+		name=X40_koos_de_la_rey
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X40_siener_botha={
+		name=X40_siener_botha
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Franklin_Roosevelt.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

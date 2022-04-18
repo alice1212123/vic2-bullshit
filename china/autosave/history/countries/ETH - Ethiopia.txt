@@ -1,0 +1,392 @@
+﻿capital = 219
+set_research_slots = 3
+
+oob = "ETH_OOB"
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_naval_mines = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+	}
+}
+
+# Research Bonuses
+
+set_country_flag = conv_abyssinia
+set_convoys = 0
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 25 producer = ETH }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = ETH }
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1934.2.21"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 30
+	democratic = 44
+	neutrality = 26
+}
+
+give_guarantee = EGY
+diplomatic_relation = { country = EGY relation = non_aggression_pact }
+
+add_opinion_modifier = { target = AFG modifier = negative_20 }
+add_opinion_modifier = { target = ALG modifier = negative_20 }
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = AUS modifier = negative_17 }
+add_opinion_modifier = { target = BEL modifier = negative_195 }
+add_opinion_modifier = { target = BHU modifier = negative_20 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = positive_36 }
+give_military_access = BRA
+add_opinion_modifier = { target = BRM modifier = negative_20 }
+add_opinion_modifier = { target = BUK modifier = negative_20 }
+add_opinion_modifier = { target = CAM modifier = negative_20 }
+add_opinion_modifier = { target = CHI modifier = positive_122 }
+give_military_access = CHI
+add_opinion_modifier = { target = CHL modifier = positive_5 }
+add_opinion_modifier = { target = COL modifier = positive_5 }
+add_opinion_modifier = { target = DEN modifier = positive_15 }
+add_opinion_modifier = { target = ECU modifier = positive_5 }
+add_opinion_modifier = { target = EGY modifier = positive_181 }
+give_military_access = EGY
+add_opinion_modifier = { target = ENG modifier = positive_200 }
+give_military_access = ENG
+add_opinion_modifier = { target = FIN modifier = positive_5 }
+add_opinion_modifier = { target = FRA modifier = negative_131 }
+add_opinion_modifier = { target = GER modifier = positive_180 }
+give_military_access = GER
+add_opinion_modifier = { target = GRE modifier = negative_85 }
+add_opinion_modifier = { target = HOL modifier = positive_84 }
+give_military_access = HOL
+add_opinion_modifier = { target = ITA modifier = positive_15 }
+add_opinion_modifier = { target = JAP modifier = negative_20 }
+add_opinion_modifier = { target = KHI modifier = negative_20 }
+add_opinion_modifier = { target = KYR modifier = negative_20 }
+add_opinion_modifier = { target = LAO modifier = positive_12 }
+add_opinion_modifier = { target = LIB modifier = negative_15 }
+add_opinion_modifier = { target = LUX modifier = positive_15 }
+add_opinion_modifier = { target = MAD modifier = negative_5 }
+add_opinion_modifier = { target = MEX modifier = positive_5 }
+add_opinion_modifier = { target = MNT modifier = negative_85 }
+add_opinion_modifier = { target = MOL modifier = positive_49 }
+give_military_access = MOL
+add_opinion_modifier = { target = MOR modifier = negative_20 }
+add_opinion_modifier = { target = NEP modifier = negative_20 }
+add_opinion_modifier = { target = NGA modifier = negative_200 }
+add_opinion_modifier = { target = OMA modifier = negative_120 }
+add_opinion_modifier = { target = PER modifier = positive_14 }
+give_military_access = PER
+add_opinion_modifier = { target = POL modifier = positive_3 }
+add_opinion_modifier = { target = POR modifier = positive_35 }
+give_military_access = POR
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = negative_85 }
+add_opinion_modifier = { target = SIA modifier = negative_20 }
+add_opinion_modifier = { target = SOV modifier = positive_113 }
+add_opinion_modifier = { target = SPR modifier = positive_74 }
+give_military_access = SPR
+add_opinion_modifier = { target = SWE modifier = positive_5 }
+add_opinion_modifier = { target = SWI modifier = negative_195 }
+add_opinion_modifier = { target = TIB modifier = negative_20 }
+add_opinion_modifier = { target = TUR modifier = negative_168 }
+give_military_access = TUR
+add_opinion_modifier = { target = UAE modifier = negative_120 }
+add_opinion_modifier = { target = UKR modifier = positive_15 }
+add_opinion_modifier = { target = URG modifier = positive_5 }
+add_opinion_modifier = { target = USA modifier = positive_64 }
+add_opinion_modifier = { target = VEN modifier = positive_5 }
+add_opinion_modifier = { target = VIN modifier = negative_20 }
+add_opinion_modifier = { target = X03 modifier = negative_20 }
+add_opinion_modifier = { target = X05 modifier = negative_20 }
+add_opinion_modifier = { target = X06 modifier = negative_20 }
+add_opinion_modifier = { target = X10 modifier = negative_20 }
+add_opinion_modifier = { target = X11 modifier = positive_125 }
+add_opinion_modifier = { target = X12 modifier = negative_20 }
+add_opinion_modifier = { target = X13 modifier = negative_20 }
+add_opinion_modifier = { target = X15 modifier = negative_20 }
+add_opinion_modifier = { target = X16 modifier = negative_20 }
+add_opinion_modifier = { target = X18 modifier = negative_20 }
+add_opinion_modifier = { target = X20 modifier = positive_5 }
+add_opinion_modifier = { target = X21 modifier = negative_20 }
+add_opinion_modifier = { target = X25 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = negative_20 }
+add_opinion_modifier = { target = X31 modifier = positive_5 }
+add_opinion_modifier = { target = X32 modifier = negative_20 }
+add_opinion_modifier = { target = X36 modifier = negative_20 }
+add_opinion_modifier = { target = X37 modifier = negative_20 }
+add_opinion_modifier = { target = X40 modifier = positive_5 }
+add_opinion_modifier = { target = X41 modifier = positive_15 }
+add_opinion_modifier = { target = X42 modifier = positive_5 }
+add_opinion_modifier = { target = X44 modifier = positive_15 }
+add_opinion_modifier = { target = YEM modifier = positive_20 }
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_amhara
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = ETH_negasi_selassie
+recruit_character = ETH_haile_mariam
+recruit_character = ETH_haile_mikael
+recruit_character = ETH_berihun_wossen
+recruit_character = ETH_berhanu_selassie
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Berhane Seged"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ETH }
+	}
+
+	create_operative_leader = {
+		name = "Bekele Mariam"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ETH }
+	}
+
+	create_operative_leader = {
+		name = "Habesha Seged"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ETH }
+	}
+
+	create_operative_leader = {
+		name = "Girma Makonnen"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ETH }
+	}
+
+	create_operative_leader = {
+		name = "Berhanu Melekot"
+		GFX = "gfx/leaders/Africa/portrait_africa_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ETH }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = ETH_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = ETH_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = ETH_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "GW Heavy Tank"
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Light Tank"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/gwtank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Medium Tank"
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
+	}
+}

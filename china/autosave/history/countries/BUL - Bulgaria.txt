@@ -1,0 +1,173 @@
+﻿capital = 569
+set_research_slots = 3
+
+oob = "BUL_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_bulgaria
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 9
+	democratic = 85
+	neutrality = 6
+}
+
+add_opinion_modifier = { target = AFG modifier = negative_10 }
+add_opinion_modifier = { target = ALG modifier = negative_10 }
+add_opinion_modifier = { target = ARG modifier = positive_5 }
+add_opinion_modifier = { target = AUS modifier = positive_5 }
+add_opinion_modifier = { target = BEL modifier = negative_5 }
+add_opinion_modifier = { target = BHU modifier = negative_10 }
+add_opinion_modifier = { target = BOL modifier = positive_5 }
+add_opinion_modifier = { target = BRA modifier = negative_5 }
+add_opinion_modifier = { target = BRM modifier = negative_10 }
+add_opinion_modifier = { target = BUK modifier = negative_10 }
+add_opinion_modifier = { target = CAM modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = negative_10 }
+add_opinion_modifier = { target = CHL modifier = positive_5 }
+add_opinion_modifier = { target = COL modifier = positive_5 }
+add_opinion_modifier = { target = DEN modifier = positive_5 }
+add_opinion_modifier = { target = ECU modifier = positive_5 }
+add_opinion_modifier = { target = EGY modifier = negative_10 }
+add_opinion_modifier = { target = ENG modifier = positive_20 }
+add_opinion_modifier = { target = ETH modifier = positive_5 }
+add_opinion_modifier = { target = FRA modifier = positive_15 }
+add_opinion_modifier = { target = GER modifier = positive_5 }
+add_opinion_modifier = { target = HOL modifier = positive_5 }
+add_opinion_modifier = { target = ITA modifier = negative_15 }
+add_opinion_modifier = { target = JAP modifier = negative_10 }
+add_opinion_modifier = { target = KHI modifier = negative_10 }
+add_opinion_modifier = { target = KYR modifier = negative_10 }
+add_opinion_modifier = { target = LAO modifier = negative_10 }
+add_opinion_modifier = { target = LIB modifier = positive_5 }
+add_opinion_modifier = { target = LUX modifier = positive_5 }
+add_opinion_modifier = { target = MAD modifier = positive_5 }
+add_opinion_modifier = { target = MEX modifier = positive_5 }
+add_opinion_modifier = { target = MNT modifier = positive_45 }
+add_opinion_modifier = { target = MOL modifier = positive_20 }
+add_opinion_modifier = { target = MOR modifier = negative_10 }
+add_opinion_modifier = { target = NEP modifier = negative_10 }
+add_opinion_modifier = { target = NGA modifier = negative_10 }
+add_opinion_modifier = { target = OMA modifier = negative_10 }
+add_opinion_modifier = { target = PER modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = positive_15 }
+add_opinion_modifier = { target = PRU modifier = positive_5 }
+add_opinion_modifier = { target = SER modifier = positive_45 }
+add_opinion_modifier = { target = SIA modifier = negative_10 }
+add_opinion_modifier = { target = SOV modifier = positive_20 }
+add_opinion_modifier = { target = SWE modifier = negative_5 }
+add_opinion_modifier = { target = SWI modifier = negative_15 }
+add_opinion_modifier = { target = TIB modifier = negative_10 }
+add_opinion_modifier = { target = TUR modifier = negative_10 }
+add_opinion_modifier = { target = UAE modifier = negative_10 }
+add_opinion_modifier = { target = URG modifier = positive_5 }
+add_opinion_modifier = { target = USA modifier = negative_15 }
+add_opinion_modifier = { target = VEN modifier = positive_5 }
+add_opinion_modifier = { target = VIN modifier = negative_10 }
+add_opinion_modifier = { target = X03 modifier = negative_10 }
+add_opinion_modifier = { target = X05 modifier = negative_10 }
+add_opinion_modifier = { target = X06 modifier = negative_10 }
+add_opinion_modifier = { target = X10 modifier = negative_10 }
+add_opinion_modifier = { target = X12 modifier = negative_10 }
+add_opinion_modifier = { target = X13 modifier = negative_10 }
+add_opinion_modifier = { target = X15 modifier = negative_10 }
+add_opinion_modifier = { target = X16 modifier = negative_10 }
+add_opinion_modifier = { target = X18 modifier = negative_10 }
+add_opinion_modifier = { target = X20 modifier = positive_5 }
+add_opinion_modifier = { target = X21 modifier = negative_10 }
+add_opinion_modifier = { target = X25 modifier = negative_10 }
+add_opinion_modifier = { target = X26 modifier = negative_10 }
+add_opinion_modifier = { target = X31 modifier = positive_5 }
+add_opinion_modifier = { target = X32 modifier = negative_10 }
+add_opinion_modifier = { target = X36 modifier = negative_10 }
+add_opinion_modifier = { target = X37 modifier = negative_10 }
+add_opinion_modifier = { target = X40 modifier = positive_5 }
+add_opinion_modifier = { target = X42 modifier = positive_5 }
+add_opinion_modifier = { target = X44 modifier = positive_20 }
+
+
+add_ideas = {
+	BUL_monarch
+	limited_conscription
+	civilian_economy
+	export_focus
+	culture_bulgarian
+}
+
+recruit_character = BUL_kliment_dimitriev
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Lucy Petroska"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Anna Ivanova"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Elena Zlateva"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Kalin Petrov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+	create_operative_leader = {
+		name = "Dobri Marinov"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { BUL }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

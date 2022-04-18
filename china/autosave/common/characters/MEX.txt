@@ -1,0 +1,76 @@
+characters={
+	MEX_juan_fagoaga={
+		name=MEX_juan_fagoaga
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_mariano_huerta={
+		name=MEX_mariano_huerta
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_andres_fagoaga={
+		name=MEX_andres_fagoaga
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_pascual_pimentel={
+		name=MEX_pascual_pimentel
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_manuel_miramon={
+		name=MEX_manuel_miramon
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	MEX_pascual_salas={
+		name=MEX_pascual_salas
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/portrait_cos_ricardo_jiminez_oreamuno.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

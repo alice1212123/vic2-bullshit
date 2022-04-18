@@ -1,0 +1,143 @@
+﻿converted_war_strategies_SWI = {
+	enable = {
+		tag = SWI
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "AUS"
+		value = 236
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 193
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ITA"
+		value = 121
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 76
+	}
+	ai_strategy = {
+		type = conquer
+		id = "COL"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_SWI = {
+	enable = {
+		tag = SWI
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 353
+	}
+	ai_strategy = {
+		type = contain
+		id = "ITA"
+		value = 292
+	}
+	ai_strategy = {
+		type = contain
+		id = "AUS"
+		value = 223
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 218
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 85
+	}
+	ai_strategy = {
+		type = contain
+		id = "DEN"
+		value = 85
+	}
+	ai_strategy = {
+		type = contain
+		id = "BEL"
+		value = 85
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 148
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 147
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ITA"
+		value = 127
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 73
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "COL"
+		value = 8
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 94
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 48
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 44
+	}
+	ai_strategy = {
+		type = protect
+		id = "LUX"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BEL"
+		value = 99
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "DEN"
+		value = 98
+	}
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=151
+	name="STATE_151"
+	resources={
+		aluminium=1.000
+		oil=0.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X52
+		victory_points = {
+			9975 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			9975 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X04
+		add_core_of = X52
+	}
+
+	provinces={
+		4187 7013 7150 7165 9975 12092 
+	}
+	manpower=5333576
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

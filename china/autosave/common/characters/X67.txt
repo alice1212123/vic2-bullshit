@@ -1,0 +1,16 @@
+characters={
+	X67_sebastiao_da_silva={
+		name=X67_sebastiao_da_silva
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/portrait_spr_niceto_alcala_zamora.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

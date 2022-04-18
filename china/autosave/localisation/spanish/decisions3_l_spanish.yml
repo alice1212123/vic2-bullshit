@@ -1,0 +1,3 @@
+﻿l_spanish:
+ CHI_Naval_treaty_nation:0 "@CHI [CHI.GetName]"
+ FRA_Naval_treaty_nation:0 "@FRA [FRA.GetName]"

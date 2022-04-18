@@ -1,0 +1,52 @@
+characters={
+	URG_baltasar_latorre={
+		name=URG_baltasar_latorre
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	URG_guillermo_brown={
+		name=URG_guillermo_brown
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	URG_fructuoso_juarez={
+		name=URG_fructuoso_juarez
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=4
+			legacy_id=0
+		}
+	}
+
+	URG_juan_manuel_de_alvear={
+		name=URG_juan_manuel_de_alvear
+		portraits={
+			civilian={
+				large="gfx/leaders/ARG/Portrait_Argentina_Agustin_Pedro_Justo.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

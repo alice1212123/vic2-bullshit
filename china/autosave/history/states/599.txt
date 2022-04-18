@@ -1,0 +1,37 @@
+
+state={
+	id=599
+	name="STATE_599"
+	resources={
+		chromium=6.000
+		rubber=8.000
+		steel=1.000
+	}
+
+	history={
+		owner = X42
+		victory_points = {
+			10886 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			10886 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = X42
+	}
+
+	provinces={
+		4991 10842 10886 13085 
+	}
+	manpower=634316
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

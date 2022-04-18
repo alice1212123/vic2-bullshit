@@ -1,0 +1,38 @@
+
+state={
+	id=148
+	name="STATE_148"
+	resources={
+		aluminium=0.000
+		chromium=3.000
+		steel=5.000
+	}
+
+	history={
+		owner = X52
+		victory_points = {
+			10088 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10088 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X32
+		add_core_of = X52
+	}
+
+	provinces={
+		10088 10116 12063 
+	}
+	manpower=2347356
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

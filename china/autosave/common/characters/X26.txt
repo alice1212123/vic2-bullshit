@@ -1,0 +1,64 @@
+characters={
+	X26_umar_bachittar_singh={
+		name=X26_umar_bachittar_singh
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_bhai_bhatti={
+		name=X26_bhai_bhatti
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_hayat_shekha={
+		name=X26_hayat_shekha
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_durga_kunwar={
+		name=X26_durga_kunwar
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_bhai_ur_rahman={
+		name=X26_bhai_ur_rahman
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Bengal_Lala_Lajpat_Rai.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

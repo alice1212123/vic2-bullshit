@@ -1,0 +1,33 @@
+
+state={
+	id=301
+	name="STATE_301"
+	resources={
+		chromium=2.000
+		oil=1.000
+	}
+
+	history={
+		owner = X61
+		victory_points = {
+			5060 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X61
+	}
+
+	provinces={
+		1960 5060 
+	}
+	manpower=207984
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			6711 3 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		676 693 727 3665 3694 3709 6711 6714 6731 9619 9672 9704 11622 11676 
+	}
+	manpower=2327816
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

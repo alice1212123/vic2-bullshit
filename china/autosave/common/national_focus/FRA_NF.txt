@@ -1,0 +1,300 @@
+focus_tree = {
+	id = FRA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = WarPropFRA
+		icon = GFX_goal_generic_propaganda
+		text = WarProp
+		x = 23
+		y = 0
+		cost = 10
+		available = {
+		threat > 0.000100
+	}
+		completion_reward = {
+		add_stability = 0.05
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = PrepInterFRA
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		text = PrepInter
+		prerequisite = { focus = WarPropFRA }
+		x = 0
+		y = 1
+		relative_position_id = WarPropFRA
+		cost = 10
+		available = {
+		threat > 0.000150
+	}
+		completion_reward = {
+		add_political_power = 120
+		set_rule = { can_send_volunteers = yes }
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = LimFRA
+		icon = GFX_goal_generic_more_territorial_claims
+		text = Lim
+		prerequisite = { focus = PrepInterFRA }
+		x = 0
+		y = 1
+		relative_position_id = PrepInterFRA
+		cost = 10
+		available = {
+		threat > 0.000250
+	}
+		completion_reward = {
+		add_ideas = limited_interventionism
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanFRAJAP
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanJAP
+		prerequisite = { focus = LimFRA }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = -1
+		y = 1
+		relative_position_id = LimFRA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoFRAJAP
+		icon = GFX_goal_generic_trade
+		text = EmbargoJAP
+		prerequisite = { focus =  WarPlanFRAJAP }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanFRAJAP
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		JAP = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARFRAJAP
+		icon = GFX_goal_support_democracy
+		text = WARJAP
+		prerequisite = { focus =  EmbargoFRAJAP }
+		bypass = {
+		has_war_with = JAP
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoFRAJAP
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = JAP
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = JAP
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WarPlanFRAAUS
+		icon = GFX_goal_generic_position_armies
+		text = WarPlanAUS
+		prerequisite = { focus = LimFRA }
+		bypass = {
+		has_war_with = AUS
+	}
+		x = 1
+		y = 1
+		relative_position_id = LimFRA
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = AUS
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+			}
+		}
+	}
+		completion_reward = {
+		army_experience = 20
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.3
+			uses = 1
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = EmbargoFRAAUS
+		icon = GFX_goal_generic_trade
+		text = EmbargoAUS
+		prerequisite = { focus =  WarPlanFRAAUS }
+		bypass = {
+		has_war_with = AUS
+	}
+		x = 0
+		y = 1
+		relative_position_id = WarPlanFRAAUS
+		cost = 10
+		available = {
+		any_other_country = {
+			original_tag = AUS
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		AUS = {
+			add_opinion_modifier = { target = ROOT modifier = embargo }
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+	focus = {
+		id = WARFRAAUS
+		icon = GFX_goal_support_democracy
+		text = WARAUS
+		prerequisite = { focus =  EmbargoFRAAUS }
+		bypass = {
+		has_war_with = AUS
+	}
+		x = 0
+		y = 1
+		relative_position_id = EmbargoFRAAUS
+		cost = 10
+		available = {
+		has_war = no
+		any_other_country = {
+			original_tag = AUS
+			exists = yes
+			NOT = { has_government = democratic }
+			NOT = { is_in_faction_with = ROOT }
+			OR = {
+				has_offensive_war = yes
+				has_added_tension_amount > 30
+				threat > 0.6
+			}
+		}
+	}
+		completion_reward = {
+		declare_war_on = {
+			type = puppet_wargoal_focus
+			target = AUS
+		}
+	}
+		ai_will_do = {
+		factor = 10
+	}
+	}
+
+}
