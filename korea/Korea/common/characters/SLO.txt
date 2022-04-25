@@ -1,0 +1,16 @@
+characters={
+	SLO_gustav_tiso={
+		name=SLO_gustav_tiso
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/portrait_lat_karlis_ulmanis.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

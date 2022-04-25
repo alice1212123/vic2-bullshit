@@ -1,0 +1,16 @@
+characters={
+	X47_joel_martin={
+		name=X47_joel_martin
+		portraits={
+			civilian={
+				large="gfx/leaders/North_American_Native/portrait_nat_north_democratic.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

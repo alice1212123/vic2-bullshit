@@ -1,0 +1,64 @@
+characters={
+	X11_udit_singh={
+		name=X11_udit_singh
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_raghuraj_singh={
+		name=X11_raghuraj_singh
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_lokendra_singh={
+		name=X11_lokendra_singh
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_parbhu_singh={
+		name=X11_parbhu_singh
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X11_raghuraj_singh_1={
+		name=X11_raghuraj_singh_1
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_DEH_V_K_Krishna_Menon.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+characters={
+	X65_bhimsen_rana={
+		name=X65_bhimsen_rana
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Bengal_Lala_Lajpat_Rai.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,53 @@
+﻿converted_war_strategies_HAW = {
+	enable = {
+		tag = HAW
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 129
+	}
+	ai_strategy = {
+		type = conquer
+		id = "AST"
+		value = 33
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 30
+	}
+	ai_strategy = {
+		type = conquer
+		id = "NZL"
+		value = 3
+	}
+}
+
+converted_diplo_strategies_HAW = {
+	enable = {
+		tag = HAW
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 43
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 10
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X57"
+		value = 26
+	}
+}

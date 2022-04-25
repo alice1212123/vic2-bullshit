@@ -1,0 +1,16 @@
+characters={
+	X87_edwar_cardigan={
+		name=X87_edwar_cardigan
+		portraits={
+			civilian={
+				large="gfx/leaders/NZL/Portrait_NewZealand_Peter_Fraser.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

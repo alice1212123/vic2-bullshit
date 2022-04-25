@@ -1,0 +1,52 @@
+characters={
+	X60_ferdinando_thaon_di_revel={
+		name=X60_ferdinando_thaon_di_revel
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=5
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X60_benito_zupelli={
+		name=X60_benito_zupelli
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X60_pietro_caviglia={
+		name=X60_pietro_caviglia
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X60_ettore_mambretti={
+		name=X60_ettore_mambretti
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_6.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

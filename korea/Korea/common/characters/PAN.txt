@@ -1,0 +1,16 @@
+characters={
+	PAN_doroteo_regalado={
+		name=PAN_doroteo_regalado
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_COS_Leon_Cortes_Castro.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

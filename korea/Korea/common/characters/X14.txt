@@ -1,0 +1,16 @@
+characters={
+	X14_alexander_grey={
+		name=X14_alexander_grey
+		portraits={
+			civilian={
+				large="gfx/leaders/USA/Portrait_USA_Harry_Truman.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

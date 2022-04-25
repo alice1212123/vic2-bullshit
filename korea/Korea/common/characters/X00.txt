@@ -1,0 +1,16 @@
+characters={
+	X00_stefan_von_mecklenburg_schwerin={
+		name=X00_stefan_von_mecklenburg_schwerin
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

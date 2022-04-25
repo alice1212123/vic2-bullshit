@@ -1,0 +1,64 @@
+characters={
+	X26_bajirao_narayan={
+		name=X26_bajirao_narayan
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_shivaji_phadnis={
+		name=X26_shivaji_phadnis
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_balaji_appa_sahib={
+		name=X26_balaji_appa_sahib
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_bajirao_bowa_sahib={
+		name=X26_bajirao_bowa_sahib
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X26_shahuji_ballal={
+		name=X26_shahuji_ballal
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Madras_Periyar_Ramasavy.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

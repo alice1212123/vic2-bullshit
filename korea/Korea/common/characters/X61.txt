@@ -1,0 +1,16 @@
+characters={
+	X61_tadeusz_rybinski={
+		name=X61_tadeusz_rybinski
+		portraits={
+			civilian={
+				large="gfx/leaders/Eastern_European/Portrait_Poland_Josef_Pilsudski.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

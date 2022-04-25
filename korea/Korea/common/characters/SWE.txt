@@ -1,0 +1,64 @@
+characters={
+	SWE_gunnar_breitholtz={
+		name=SWE_gunnar_breitholtz
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWE_oscar_palmstierna={
+		name=SWE_oscar_palmstierna
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWE_nils_rosensvard={
+		name=SWE_nils_rosensvard
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWE_viktor_palmstierna={
+		name=SWE_viktor_palmstierna
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	SWE_per_brahe={
+		name=SWE_per_brahe
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/Portrait_Finland_Risto_Heikki_Ryti.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

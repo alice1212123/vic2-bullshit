@@ -1,0 +1,16 @@
+characters={
+	X80_huru_babu={
+		name=X80_huru_babu
+		portraits={
+			civilian={
+				large="gfx/leaders/African/Portrait_CAF_CLR_James.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,88 @@
+characters={
+	FRA_thomas_duchene={
+		name=FRA_thomas_duchene
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_leopold_bosquet={
+		name=FRA_leopold_bosquet
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_ettiene_hamelin={
+		name=FRA_ettiene_hamelin
+		corps_commander={
+			skill=3
+			attack_skill=6
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_paul_de_montaignac={
+		name=FRA_paul_de_montaignac
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_louis_hamelin={
+		name=FRA_louis_hamelin
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_georges_courbet={
+		name=FRA_georges_courbet
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	FRA_leroy_pellissier={
+		name=FRA_leroy_pellissier
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

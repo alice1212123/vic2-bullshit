@@ -1,0 +1,76 @@
+characters={
+	X63_alfonso_sacchi={
+		name=X63_alfonso_sacchi
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	X63_marco_ricotti_magnani={
+		name=X63_marco_ricotti_magnani
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X63_marco_thaon_di_revel={
+		name=X63_marco_thaon_di_revel
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X63_marco_presbitero={
+		name=X63_marco_presbitero
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X63_cesare_di_savoia_aosta={
+		name=X63_cesare_di_savoia_aosta
+		navy_leader={
+			skill=3
+			attack_skill=5
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X63_camillo_ramorino={
+		name=X63_camillo_ramorino
+		portraits={
+			civilian={
+				large="gfx/leaders/SPR/portrait_spr_niceto_alcala_zamora.dds"
+			}
+		}
+		country_leader={
+			ideology=minarchism_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

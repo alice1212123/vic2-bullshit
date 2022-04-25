@@ -1,0 +1,16 @@
+characters={
+	X62_mikhail_stefaniv={
+		name=X62_mikhail_stefaniv
+		portraits={
+			civilian={
+				large="gfx/leaders/Eastern_European/Portrait_Belarus_Auhien_Kalubovic.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+characters={
+	X64_edvin_schack_schackenborg={
+		name=X64_edvin_schack_schackenborg
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

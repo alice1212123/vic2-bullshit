@@ -1,0 +1,16 @@
+characters={
+	BRM_pagan_min={
+		name=BRM_pagan_min
+		portraits={
+			civilian={
+				large="gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

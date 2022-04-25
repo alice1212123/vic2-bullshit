@@ -1,0 +1,18 @@
+﻿converted_war_strategies_SLV = {
+	enable = {
+		tag = SLV
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_SLV = {
+	enable = {
+		tag = SLV
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

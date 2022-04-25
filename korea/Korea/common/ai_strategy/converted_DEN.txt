@@ -1,0 +1,153 @@
+﻿converted_war_strategies_DEN = {
+	enable = {
+		tag = DEN
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SWE"
+		value = 2403
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 414
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FRA"
+		value = 69
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 19
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_DEN = {
+	enable = {
+		tag = DEN
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 327
+	}
+	ai_strategy = {
+		type = contain
+		id = "SWE"
+		value = 264
+	}
+	ai_strategy = {
+		type = contain
+		id = "KOR"
+		value = 224
+	}
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 171
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 103
+	}
+	ai_strategy = {
+		type = contain
+		id = "GRE"
+		value = 55
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 53
+	}
+	ai_strategy = {
+		type = contain
+		id = "X41"
+		value = 16
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SWE"
+		value = 345
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 252
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "FRA"
+		value = 113
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 52
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 49
+	}
+	ai_strategy = {
+		type = alliance
+		id = "HOL"
+		value = 26
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 18
+	}
+	ai_strategy = {
+		type = protect
+		id = "LUX"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X57"
+		value = 44
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X72"
+		value = 44
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NGA"
+		value = 36
+	}
+}

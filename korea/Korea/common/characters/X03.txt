@@ -1,0 +1,16 @@
+characters={
+	X03_jakob_geiss={
+		name=X03_jakob_geiss
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

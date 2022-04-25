@@ -1,0 +1,16 @@
+characters={
+	X56_dieter_von_holstein_gottorp={
+		name=X56_dieter_von_holstein_gottorp
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
+			}
+		}
+		country_leader={
+			ideology=prussian_const_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

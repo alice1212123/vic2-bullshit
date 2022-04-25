@@ -1,0 +1,16 @@
+characters={
+	BAY_leonhard_seitz={
+		name=BAY_leonhard_seitz
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/Portrait_Australia_John_Curtin.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

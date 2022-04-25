@@ -1,0 +1,153 @@
+﻿converted_war_strategies_SIA = {
+	enable = {
+		tag = SIA
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 1204
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 874
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAM"
+		value = 106
+	}
+	ai_strategy = {
+		type = conquer
+		id = "LAO"
+		value = 87
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 45
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAN"
+		value = 9
+	}
+}
+
+converted_diplo_strategies_SIA = {
+	enable = {
+		tag = SIA
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "KOR"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 135
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAM"
+		value = 110
+	}
+	ai_strategy = {
+		type = contain
+		id = "LAO"
+		value = 76
+	}
+	ai_strategy = {
+		type = contain
+		id = "ENG"
+		value = 55
+	}
+	ai_strategy = {
+		type = contain
+		id = "X01"
+		value = 40
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 364
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LAO"
+		value = 325
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAM"
+		value = 274
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 14
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 139
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 67
+	}
+	ai_strategy = {
+		type = protect
+		id = "CAM"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "LAO"
+		value = 140
+	}
+	ai_strategy = {
+		type = protect
+		id = "X01"
+		value = 113
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 117
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HAI"
+		value = 64
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 57
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LAO"
+		value = 51
+	}
+}

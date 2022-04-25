@@ -1,0 +1,88 @@
+characters={
+	GER_gunther_von_gebser={
+		name=GER_gunther_von_gebser
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_friedrich_von_rauch={
+		name=GER_friedrich_von_rauch
+		corps_commander={
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	GER_friedrich_von_waldeck_und_pyrmont={
+		name=GER_friedrich_von_waldeck_und_pyrmont
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_reinhard_groener={
+		name=GER_reinhard_groener
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_wolfgang_groener={
+		name=GER_wolfgang_groener
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_joachim_von_hohenzollern={
+		name=GER_joachim_von_hohenzollern
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=3
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	GER_adelbert_von_tirpitz={
+		name=GER_adelbert_von_tirpitz
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/portrait_ice_sveinn_bjornsson.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

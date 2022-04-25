@@ -1,0 +1,64 @@
+characters={
+	BOL_francisco_monje={
+		name=BOL_francisco_monje
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_ismael_freire={
+		name=BOL_ismael_freire
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	BOL_domingo_cabrera={
+		name=BOL_domingo_cabrera
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_luis_rebolledo={
+		name=BOL_luis_rebolledo
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BOL_bartolome_zanartu={
+		name=BOL_bartolome_zanartu
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/portrait_south_america_generic_9.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

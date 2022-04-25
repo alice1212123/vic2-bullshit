@@ -1,0 +1,64 @@
+characters={
+	MAN_sonin_zhanshan={
+		name=MAN_sonin_zhanshan
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	MAN_oboi_shangzhi={
+		name=MAN_oboi_shangzhi
+		corps_commander={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MAN_nalan_zhanshan={
+		name=MAN_nalan_zhanshan
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MAN_guan_tiemei={
+		name=MAN_guan_tiemei
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	MAN_zhao_zhanshan={
+		name=MAN_zhao_zhanshan
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/r56_portrait_generic_politician_asia_1_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

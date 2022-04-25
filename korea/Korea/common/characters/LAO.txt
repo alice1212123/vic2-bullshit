@@ -1,0 +1,52 @@
+characters={
+	LAO_unkeo_vong={
+		name=LAO_unkeo_vong
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LAO_ong_anuvong={
+		name=LAO_ong_anuvong
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	LAO_sisavang_anuvong={
+		name=LAO_sisavang_anuvong
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+	LAO_nanthasen_long={
+		name=LAO_nanthasen_long
+		portraits={
+			civilian={
+				large="gfx/leaders/Indo_Chinese_Nesia/Portrait_Siam_Thawan_Thamrongnawasawat_Civilian.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

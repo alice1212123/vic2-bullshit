@@ -1,0 +1,16 @@
+characters={
+	YEM_hasan_ibn_salim={
+		name=YEM_hasan_ibn_salim
+		portraits={
+			civilian={
+				large="gfx/leaders/KUR/portrait_kur_seyid_riza.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

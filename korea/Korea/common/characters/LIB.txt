@@ -1,0 +1,64 @@
+characters={
+	LIB_stewart_flipper={
+		name=LIB_stewart_flipper
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LIB_powhatan_gardner={
+		name=LIB_powhatan_gardner
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LIB_michael_jackson={
+		name=LIB_michael_jackson
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LIB_lloyd_delany={
+		name=LIB_lloyd_delany
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	LIB_charles_brooks={
+		name=LIB_charles_brooks
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

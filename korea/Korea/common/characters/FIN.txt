@@ -1,0 +1,16 @@
+characters={
+	FIN_kurt_holsti={
+		name=FIN_kurt_holsti
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Konrad_Adenauer.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

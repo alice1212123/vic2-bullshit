@@ -1,0 +1,28 @@
+characters={
+	X52_muhammad_ibm_kamil={
+		name=X52_muhammad_ibm_kamil
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X52_uthman_ibn_ishaq={
+		name=X52_uthman_ibn_ishaq
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_Persia_Sayyed_Hasan_Taqizadeh.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

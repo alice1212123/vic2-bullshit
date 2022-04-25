@@ -1,0 +1,133 @@
+﻿converted_war_strategies_MON = {
+	enable = {
+		tag = MON
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 665
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MAN"
+		value = 375
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 306
+	}
+	ai_strategy = {
+		type = conquer
+		id = "XSM"
+		value = 145
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIK"
+		value = 128
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KOR"
+		value = 40
+	}
+}
+
+converted_diplo_strategies_MON = {
+	enable = {
+		tag = MON
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "KOR"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 165
+	}
+	ai_strategy = {
+		type = contain
+		id = "MAN"
+		value = 163
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIK"
+		value = 163
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 160
+	}
+	ai_strategy = {
+		type = contain
+		id = "XSM"
+		value = 98
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MAN"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 311
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 198
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIK"
+		value = 180
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "XSM"
+		value = 82
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KOR"
+		value = 12
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 192
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SIK"
+		value = 156
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "URG"
+		value = 80
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MAN"
+		value = 55
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TIB"
+		value = 31
+	}
+}
