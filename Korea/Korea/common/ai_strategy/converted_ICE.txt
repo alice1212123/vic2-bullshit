@@ -1,0 +1,18 @@
+﻿converted_war_strategies_ICE = {
+	enable = {
+		tag = ICE
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_ICE = {
+	enable = {
+		tag = ICE
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

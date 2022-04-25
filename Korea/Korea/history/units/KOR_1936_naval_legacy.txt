@@ -1,0 +1,75 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4056
+		task_force = {
+			name = "1st Fleet"
+			location = 4056
+			ship = { name = "Baekdu" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Daedeok" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Geumho" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Baekje" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Dongmyeongseong" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Goguryeo" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Changbai" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Gayasan" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Gyeon Hwon" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Duman" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Geumgang" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Jirisan" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Sincheon" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Jeongjong" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Kumgangsan" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Nakdong" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Silla" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Sobaek" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Taebaek" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Taejo" definition = battleship equipment = { battleship_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "2nd Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "3rd Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "4th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "5th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "6th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "7th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "8th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "9th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "10th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "11th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "12th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "14th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "15th Pusan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Pyongyang Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Inchon Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Wonsan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "2nd Pyongyang Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "2nd Inchon Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "2nd Wonsan Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Jeong Do-jeon" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "Yi Seong-gye" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "1st Pusan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KOR } } }
+			ship = { name = "2nd Pusan Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = KOR } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "KOR"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "KOR"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

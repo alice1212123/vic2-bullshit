@@ -1,0 +1,30 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 13085
+		task_force = {
+			name = "2nd Fleet"
+			location = 13085
+			ship = { name = "Carías" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "Chingo" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "Guanacaste" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "Guatemalteco" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "Lempira" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "Nicaragüense" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+			ship = { name = "Invencible" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X75 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X75"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

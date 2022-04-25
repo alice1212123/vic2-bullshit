@@ -1,0 +1,33 @@
+
+state={
+	id=90
+	name="STATE_90"
+
+	history={
+		owner = CHI
+		victory_points = {
+			1150 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			1150 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1150 6851 
+	}
+	manpower=823380
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

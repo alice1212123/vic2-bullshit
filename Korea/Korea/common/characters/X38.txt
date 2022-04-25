@@ -1,0 +1,16 @@
+characters={
+	X38_wilhelm_von_blumenthal={
+		name=X38_wilhelm_von_blumenthal
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/portrait_lux_joseph_bech.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

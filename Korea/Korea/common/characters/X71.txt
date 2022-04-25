@@ -1,0 +1,16 @@
+characters={
+	X71_francesco_di_robilant={
+		name=X71_francesco_di_robilant
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_Italy_Luigi_Sturzo.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

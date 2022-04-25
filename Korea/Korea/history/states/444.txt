@@ -1,0 +1,39 @@
+
+state={
+	id=444
+	name="STATE_444"
+	resources={
+		aluminium=6.000
+		chromium=3.000
+		rubber=1.000
+		steel=0.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = W02
+		victory_points = {
+			2123 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			2123 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+		add_core_of = W02
+	}
+
+	provinces={
+		2123 2159 2202 2217 5164 10972 12908 
+	}
+	manpower=1766504
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

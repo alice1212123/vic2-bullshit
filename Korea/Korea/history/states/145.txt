@@ -1,0 +1,23 @@
+
+state={
+	id=145
+	name="STATE_145"
+	resources={
+		steel=0.000
+	}
+	impassable = yes
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+	}
+
+	provinces={
+		7987 10900 
+	}
+	manpower=7476
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

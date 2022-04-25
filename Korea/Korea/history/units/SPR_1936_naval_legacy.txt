@@ -1,0 +1,90 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 758
+		task_force = {
+			name = "1st Fleet"
+			location = 758
+			ship = { name = "Alfonso XIII" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Álvaro de Bazán" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Brigadier Topete" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Castañeta" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Ciudad de Cartagena" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Ciudad de Sevilla" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Ciudad de Valencia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Duque de Alba" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Duque de Medina-Sidonia" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Duque de Parma" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "El Gran Capitán" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Cádiz Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Pelayo" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Cádiz Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st La Coruña Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Cartagena Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Cádiz Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Oporto Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "1st Beja Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Oporto Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "2nd Beja Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Oporto Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "3rd Beja Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Alfonso XII" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Almirante Oquendo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Aragón" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Cardenal Cisneros" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Castilla" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Ciudad de Oviedo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Cataluña" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Conde de Venadito" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Cristóbal Colón" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Extremadura" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Don Antonio de Ulloa" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Infanta Isabel" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Gravina" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Isla de Cuba" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10063
+		task_force = {
+			name = "4th Fleet"
+			location = 10063
+			ship = { name = "España" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Estrella de los Mares" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Isla de Luzón" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Don Juan de Austria" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+			ship = { name = "Emperador Carlos V" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SPR } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 12702
+		task_force = {
+			name = "3rd Fleet"
+			location = 12702
+			ship = { name = "Fadrique Álvarez de Toledo" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SPR } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "SPR"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "SPR"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

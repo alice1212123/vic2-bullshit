@@ -1,0 +1,92 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 758
+		task_force = {
+			name = "1st Fleet"
+			location = 758
+			ship = { name = "Alfonso XIII" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Álvaro de Bazán" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Brigadier Topete" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Castañeta" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Ciudad de Cartagena" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Ciudad de Sevilla" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Ciudad de Valencia" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Duque de Alba" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Duque de Medina-Sidonia" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Duque de Parma" definition = battleship start_experience_factor = 0.15 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "El Gran Capitán" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "3rd Cádiz Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Pelayo" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Cádiz Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Cartagena Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Cádiz Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Oporto Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Beja Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Oporto Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Beja Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Oporto Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Beja Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Alfonso XII" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Almirante Oquendo" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Aragón" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cardenal Cisneros" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Castilla" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ciudad de Oviedo" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cataluña" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Conde de Venadito" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cristóbal Colón" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Extremadura" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Don Antonio de Ulloa" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Infanta Isabel" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Gravina" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Isla de Cuba" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 10063
+		task_force = {
+			name = "4th Fleet"
+			location = 10063
+			ship = { name = "España" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Estrella de los Mares" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+			ship = { name = "Isla de Luzón" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Don Juan de Austria" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+			ship = { name = "Emperador Carlos V" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 12702
+		task_force = {
+			name = "3rd Fleet"
+			location = 12702
+			ship = { name = "Fadrique Álvarez de Toledo" definition = battleship start_experience_factor = 0.2 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "Early Battleship" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SPR"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "SPR"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

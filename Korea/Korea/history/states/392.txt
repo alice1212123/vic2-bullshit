@@ -1,0 +1,36 @@
+
+state={
+	id=392
+	name="STATE_392"
+	resources={
+		rubber=13.000
+	}
+
+	history={
+		owner = X98
+		victory_points = {
+			4273 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			10191 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X04
+		add_core_of = X98
+	}
+
+	provinces={
+		1298 4273 4301 7293 7321 10175 10191 10219 12151 12162 12219 12234 
+	}
+	manpower=2400276
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

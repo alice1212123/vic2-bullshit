@@ -1,0 +1,37 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10494
+		task_force = {
+			name = "1st Fleet"
+			location = 10494
+			ship = { name = "Antonia Manuela" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+			ship = { name = "Chitty" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+			ship = { name = "Guaviare" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+			ship = { name = "Magdalena" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+			ship = { name = "Ornico" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+			ship = { name = "Peacock" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = COL } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "COL"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "COL"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

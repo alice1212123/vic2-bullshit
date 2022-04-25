@@ -1,0 +1,64 @@
+characters={
+	X05_vasireddy_veeresalingam={
+		name=X05_vasireddy_veeresalingam
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X05_vasireddy_hanumathu={
+		name=X05_vasireddy_hanumathu
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X05_pingali_sitaramaraju={
+		name=X05_pingali_sitaramaraju
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X05_pingali_hanumathu={
+		name=X05_pingali_hanumathu
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X05_venkatadri_nayudu={
+		name=X05_venkatadri_nayudu
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_DEH_Muhammad_Ali_Jinnah.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

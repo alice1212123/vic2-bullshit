@@ -1,0 +1,32 @@
+
+state={
+	id=40
+	name="STATE_40"
+	resources={
+		aluminium=22.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			6631 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = AUS
+	}
+
+	provinces={
+		656 6631 6675 9598 9630 11598 11615 
+	}
+	manpower=1019484
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

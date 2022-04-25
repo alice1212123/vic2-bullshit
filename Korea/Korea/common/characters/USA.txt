@@ -1,0 +1,88 @@
+characters={
+	USA_robert_schenck={
+		name=USA_robert_schenck
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_lucas_wade={
+		name=USA_lucas_wade
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_francis_clayton={
+		name=USA_francis_clayton
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	USA_ambrose_hayes={
+		name=USA_ambrose_hayes
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_alexander_mcarthur={
+		name=USA_alexander_mcarthur
+		corps_commander={
+			skill=3
+			attack_skill=5
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_matthew_ward={
+		name=USA_matthew_ward
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	USA_russell_kimball={
+		name=USA_russell_kimball
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_France_Paul_Reynaud.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

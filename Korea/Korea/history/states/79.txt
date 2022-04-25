@@ -1,0 +1,34 @@
+
+state={
+	id=79
+	name="STATE_79"
+	resources={
+		oil=0.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = CAN
+		victory_points = {
+			12578 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = CAN
+		add_core_of = X14
+	}
+
+	provinces={
+		4877 7820 12578 
+	}
+	manpower=522820
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

@@ -1,0 +1,113 @@
+﻿converted_war_strategies_BRU = {
+	enable = {
+		tag = BRU
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "HOL"
+		value = 404
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X01"
+		value = 32
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ENG"
+		value = 24
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIA"
+		value = 24
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 24
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KOR"
+		value = 16
+	}
+}
+
+converted_diplo_strategies_BRU = {
+	enable = {
+		tag = BRU
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "HOL"
+		value = 217
+	}
+	ai_strategy = {
+		type = contain
+		id = "X01"
+		value = 44
+	}
+	ai_strategy = {
+		type = contain
+		id = "SIA"
+		value = 6
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HOL"
+		value = 303
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X01"
+		value = 16
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ENG"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPR"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SIA"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KOR"
+		value = 5
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "UAE"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LAO"
+		value = 86
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X52"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "YEM"
+		value = 43
+	}
+}

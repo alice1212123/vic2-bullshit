@@ -1,0 +1,41 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 9909
+		task_force = {
+			name = "2nd Fleet"
+			location = 9909
+			ship = { name = "Conti di Cavour" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "2nd Nice Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "2nd Genoa Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "3rd Nice Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "4th Nice Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "4th Genoa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "4th Nice Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "5th Nice Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "6th Nice Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X63 } } }
+			ship = { name = "7th Nice Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X63 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X63"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X63"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,76 @@
+characters={
+	VAT_domenico_gravina={
+		name=VAT_domenico_gravina
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VAT_domenico_gironda={
+		name=VAT_domenico_gironda
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VAT_giuseppe_di_borbone_della_due_sicilia={
+		name=VAT_giuseppe_di_borbone_della_due_sicilia
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VAT_giovanni_zunica={
+		name=VAT_giovanni_zunica
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	VAT_corrado_colonna={
+		name=VAT_corrado_colonna
+		navy_leader={
+			skill=3
+			attack_skill=5
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	VAT_orazio_lanza={
+		name=VAT_orazio_lanza
+		portraits={
+			civilian={
+				large="gfx/leaders/Mediterranean/Portrait_SRI_Giacomo_Matteotti.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,76 @@
+characters={
+	X75_justo_zeledon={
+		name=X75_justo_zeledon
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_juan_antonio_vigil={
+		name=X75_juan_antonio_vigil
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_jesus_quiros={
+		name=X75_jesus_quiros
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_marcelino_vigil={
+		name=X75_marcelino_vigil
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=0
+		}
+	}
+
+	X75_bartolome_medina={
+		name=X75_bartolome_medina
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	X75_jesus_mejia={
+		name=X75_jesus_mejia
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_Bolivia_Franz_Tamayo.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

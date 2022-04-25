@@ -1,0 +1,33 @@
+
+state={
+	id=344
+	name="STATE_344"
+	resources={
+		rubber=0.000
+	}
+
+	history={
+		owner = X99
+		victory_points = {
+			4995 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ETH
+		add_core_of = X99
+	}
+
+	provinces={
+		4995 10775 12757 12812 
+	}
+	manpower=665068
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

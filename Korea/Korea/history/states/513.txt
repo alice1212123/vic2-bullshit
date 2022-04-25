@@ -1,0 +1,39 @@
+
+state={
+	id=513
+	name="STATE_513"
+	resources={
+		aluminium=28.000
+		chromium=4.000
+		steel=40.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = X63
+		victory_points = {
+			6780 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			6788 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = ITA
+		add_core_of = X63
+	}
+
+	provinces={
+		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11726 11730 11891 
+	}
+	manpower=1832024
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=255
+	name="STATE_255"
+	resources={
+		steel=0.000
+	}
+
+	history={
+		owner = X88
+		victory_points = {
+			10966 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X88
+	}
+
+	provinces={
+		8138 8202 10966 12391 
+	}
+	manpower=428892
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

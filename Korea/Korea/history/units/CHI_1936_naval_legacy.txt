@@ -1,0 +1,43 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 8073
+		task_force = {
+			name = "1st Fleet"
+			location = 3204
+			ship = { name = "Pao Nim" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 8073
+		task_force = {
+			name = "2nd Fleet"
+			location = 2757
+			ship = { name = "1st Weihaiwei Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Ying Ching" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }
+			ship = { name = "Ton Chi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = CHI } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "CHI"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "CHI"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=48
+	name="STATE_48"
+	resources={
+		aluminium=1.000
+		chromium=6.000
+		steel=8.000
+	}
+
+	history={
+		owner = X05
+		victory_points = {
+			7465 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X05
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1622 7428 7465 10469 12490 
+	}
+	manpower=373496
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

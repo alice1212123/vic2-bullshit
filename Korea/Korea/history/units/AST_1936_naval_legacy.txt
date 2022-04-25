@@ -1,0 +1,91 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 7520
+		task_force = {
+			name = "4th Fleet"
+			location = 7520
+			ship = { name = "2nd Robe Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Warmambool Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Robe Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Palmerston Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "4th Perth Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "5th Perth Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "4th Cooktown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "4th Palmerston Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "6th Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "7th Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Warmambool Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Cooktown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Cooktown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Perth Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Robe Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "5th Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Palmerston Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Perth Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Perth Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Cooktown Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "4th Robe Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Robe Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Perth Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Perth Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "5th Palmerston Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "6th Palmerston Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Warmambool Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Newcastle Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Cooktown Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Australia" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Melbourne" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Sydney" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Encounter" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Protector" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Robe Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Palmerston Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Palmerston Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Perth Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "1st Warmambool Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Palmerston Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Robe Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 4791
+		task_force = {
+			name = "1st Fleet"
+			location = 4791
+			ship = { name = "2nd Warmambool Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "4th Newcastle Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "2nd Palmerston Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "3rd Cooktown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Brisbane" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "Pioneer" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "4th Palmerston Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+			ship = { name = "4th Perth Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = AST } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "AST"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "AST"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	YUG_zvezdan_novak={
+		name=YUG_zvezdan_novak
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=342
+	name="STATE_342"
+
+	history={
+		owner = X99
+		victory_points = {
+			12991 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			10777 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = X99
+		add_claim_by = OMA
+	}
+
+	provinces={
+		1905 1964 1966 2020 2063 4909 5065 5068 8094 8164 10777 10818 10833 10891 10921 10928 11014 12759 12814 12840 12941 12991 
+	}
+	manpower=1214140
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

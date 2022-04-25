@@ -1,0 +1,16 @@
+characters={
+	W00_bak_si={
+		name=W00_bak_si
+		portraits={
+			civilian={
+				large="gfx/leaders/Korean_Japan/Portrait_KOR_Syngman_Rhee.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

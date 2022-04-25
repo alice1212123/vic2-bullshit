@@ -1,0 +1,30 @@
+
+state={
+	id=52
+	name="STATE_52"
+
+	history={
+		owner = X07
+		victory_points = {
+			11995 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = RAJ
+		add_core_of = X07
+	}
+
+	provinces={
+		2105 11995 
+	}
+	manpower=281520
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

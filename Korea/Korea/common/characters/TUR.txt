@@ -1,0 +1,76 @@
+characters={
+	TUR_lutfi_pasha={
+		name=TUR_lutfi_pasha
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TUR_mithat_pasha={
+		name=TUR_mithat_pasha
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	TUR_akif_bey={
+		name=TUR_akif_bey
+		corps_commander={
+			skill=3
+			attack_skill=1
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TUR_fuat_pasha={
+		name=TUR_fuat_pasha
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	TUR_talat_pasha={
+		name=TUR_talat_pasha
+		navy_leader={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=5
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	TUR_hafiz_bey={
+		name=TUR_hafiz_bey
+		portraits={
+			civilian={
+				large="gfx/leaders/TUR/Portrait_Turkey_Ismet_Inonu.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

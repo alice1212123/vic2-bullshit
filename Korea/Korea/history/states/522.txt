@@ -1,0 +1,34 @@
+
+state={
+	id=522
+	name="STATE_522"
+
+	history={
+		owner = X69
+		victory_points = {
+			3456 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 0
+			dockyard = 1
+			3456 = {
+				naval_base = 2
+			}
+			air_base = 5
+
+		}
+		add_core_of = X69
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1147 1971 1980 3456 4003 4110 4382 7049 7084 10108 10735 
+	}
+	manpower=1567336
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

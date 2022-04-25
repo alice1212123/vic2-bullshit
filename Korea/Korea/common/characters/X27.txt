@@ -1,0 +1,16 @@
+characters={
+	X27_kyriakos_tes_elladas={
+		name=X27_kyriakos_tes_elladas
+		portraits={
+			civilian={
+				large="gfx/leaders/POR/portrait_por_antonio_de_oliveira_salazar.dds"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

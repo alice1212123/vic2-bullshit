@@ -1,0 +1,34 @@
+
+state={
+	id=306
+	name="STATE_306"
+	resources={
+		aluminium=0.000
+		rubber=0.000
+		steel=0.000
+	}
+
+	history={
+		owner = X92
+		victory_points = {
+			9137 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X92
+	}
+
+	provinces={
+		7963 7978 9137 
+	}
+	manpower=1486228
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

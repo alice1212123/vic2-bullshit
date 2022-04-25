@@ -1,0 +1,36 @@
+
+state={
+	id=669
+	name="STATE_669"
+	resources={
+		aluminium=8.000
+		rubber=0.000
+		steel=4.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = XSM
+		victory_points = {
+			5092 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 1
+			air_base = 7
+
+		}
+		add_core_of = CHI
+		add_core_of = XSM
+	}
+
+	provinces={
+		1458 1976 2006 4256 5007 5092 7208 7301 7314 7406 7659 8049 10257 10733 10880 12156 12356 12408 12713 
+	}
+	manpower=13430696
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,64 @@
+characters={
+	X49_raghunath_bhat={
+		name=X49_raghunath_bhat
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X49_pratapsinha_phadnis={
+		name=X49_pratapsinha_phadnis
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X49_madhava_baji_rao={
+		name=X49_madhava_baji_rao
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X49_raghunath_phadnis={
+		name=X49_raghunath_phadnis
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X49_madhava_baji_rao_1={
+		name=X49_madhava_baji_rao_1
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_Princely_Osman_Ali_Khan.tga"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

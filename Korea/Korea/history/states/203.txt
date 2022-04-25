@@ -1,0 +1,33 @@
+
+state={
+	id=203
+	name="STATE_203"
+
+	history={
+		owner = X83
+		victory_points = {
+			13005 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			13005 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X83
+		add_claim_by = ENG
+	}
+
+	provinces={
+		13005 
+	}
+	manpower=180684
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

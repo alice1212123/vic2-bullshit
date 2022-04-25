@@ -1,0 +1,35 @@
+
+state={
+	id=409
+	name="STATE_409"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X59
+		victory_points = {
+			8005 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 10
+
+		}
+		add_core_of = X34
+		add_core_of = X37
+		add_core_of = X59
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1910 2041 2084 7273 7316 8005 10821 10905 12754 12884 
+	}
+	manpower=1239936
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

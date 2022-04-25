@@ -1,0 +1,32 @@
+
+state={
+	id=209
+	name="STATE_209"
+	resources={
+		chromium=168.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			8214 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = ENG
+	}
+
+	provinces={
+		1580 8214 10525 12940 12963 
+	}
+	manpower=822388
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

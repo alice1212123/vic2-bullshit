@@ -1,0 +1,32 @@
+
+state={
+	id=661
+	name="STATE_661"
+
+	history={
+		owner = USA
+		victory_points = {
+			13028 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			13028 = {
+				naval_base = 6
+			}
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		2489 13027 13028 13029 13030 13031 13032 13033 13034 13035 13036 
+	}
+	manpower=962500
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

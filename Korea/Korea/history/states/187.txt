@@ -1,0 +1,36 @@
+
+state={
+	id=187
+	name="STATE_187"
+	resources={
+		aluminium=112.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			8107 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12716 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ENG
+		add_claim_by = VEN
+	}
+
+	provinces={
+		4982 8107 12716 
+	}
+	manpower=815088
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

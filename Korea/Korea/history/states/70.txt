@@ -1,0 +1,34 @@
+
+state={
+	id=70
+	name="STATE_70"
+	resources={
+		oil=3.000
+		steel=0.000
+		tungsten=29.000
+	}
+
+	history={
+		owner = BRA
+		victory_points = {
+			5230 0 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BOL
+	}
+
+	provinces={
+		5188 5230 8157 8211 8225 8240 10996 12917 13195 
+	}
+	manpower=2948128
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

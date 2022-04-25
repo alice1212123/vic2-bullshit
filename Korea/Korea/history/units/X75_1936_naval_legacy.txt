@@ -1,0 +1,38 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 13085
+		task_force = {
+			name = "2nd Fleet"
+			location = 13085
+			ship = { name = "Carías" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "Chingo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "Guanacaste" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "Guatemalteco" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "Lempira" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "Nicaragüense" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+			ship = { name = "Invencible" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X75 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X75"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X75"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

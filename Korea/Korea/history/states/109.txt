@@ -1,0 +1,37 @@
+
+state={
+	id=109
+	name="STATE_109"
+	resources={
+		chromium=6.000
+		steel=4.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			8098 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 6
+
+		}
+		add_core_of = X33
+		add_claim_by = AFG
+		add_claim_by = RAJ
+		add_claim_by = X34
+		add_claim_by = X59
+	}
+
+	provinces={
+		1978 4558 4990 4998 5043 5075 5105 7847 7975 8013 8044 8066 8098 10813 12717 12761 12763 
+	}
+	manpower=1523084
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

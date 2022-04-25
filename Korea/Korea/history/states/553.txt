@@ -1,0 +1,33 @@
+
+state={
+	id=553
+	name="STATE_553"
+
+	history={
+		owner = SPR
+		victory_points = {
+			3846 0 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			3866 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = POR
+		add_claim_by = SPR
+	}
+
+	provinces={
+		980 3790 3846 3866 3886 3926 6880 6884 6933 6986 9765 9819 9869 
+	}
+	manpower=393920
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

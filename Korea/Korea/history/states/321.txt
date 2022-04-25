@@ -1,0 +1,30 @@
+
+state={
+	id=321
+	name="STATE_321"
+
+	history={
+		owner = X20
+		victory_points = {
+			10807 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X20
+	}
+
+	provinces={
+		1949 2036 7080 10807 10816 
+	}
+	manpower=775444
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

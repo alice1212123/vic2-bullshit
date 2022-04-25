@@ -1,0 +1,30 @@
+
+state={
+	id=639
+	name="STATE_639"
+
+	history={
+		owner = USA
+		victory_points = {
+			9727 4 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = USA
+		add_claim_by = CSA
+	}
+
+	provinces={
+		1445 1582 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12637 12709 
+	}
+	manpower=5215584
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=147
+	name="STATE_147"
+
+	history={
+		owner = EGY
+		victory_points = {
+			12766 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 0
+			arms_factory = 0
+			5047 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = EGY
+		add_claim_by = ETH
+	}
+
+	provinces={
+		5017 5047 5091 8043 12723 12766 
+	}
+	manpower=719776
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

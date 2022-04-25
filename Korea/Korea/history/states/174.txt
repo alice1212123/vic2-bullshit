@@ -1,0 +1,37 @@
+
+state={
+	id=174
+	name="STATE_174"
+	resources={
+		aluminium=2.000
+		chromium=2.000
+		steel=1.000
+	}
+
+	history={
+		owner = X86
+		victory_points = {
+			10801 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RAJ
+		add_core_of = X07
+		add_core_of = X49
+		add_core_of = X86
+	}
+
+	provinces={
+		4950 4953 10801 10872 12799 12854 
+	}
+	manpower=8773176
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

@@ -1,0 +1,174 @@
+﻿capital = 521
+set_research_slots = 2
+
+oob = "X68_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_south_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 77
+	neutrality = 23
+}
+
+give_guarantee = NEP
+diplomatic_relation = { country = NEP relation = non_aggression_pact }
+
+give_guarantee = TIB
+diplomatic_relation = { country = TIB relation = non_aggression_pact }
+
+give_guarantee = X59
+diplomatic_relation = { country = X59 relation = non_aggression_pact }
+
+add_opinion_modifier = { target = ALG modifier = negative_20 }
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = AST modifier = negative_10 }
+add_opinion_modifier = { target = BEL modifier = negative_10 }
+add_opinion_modifier = { target = BHU modifier = positive_190 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = BUK modifier = negative_20 }
+add_opinion_modifier = { target = CAM modifier = negative_5 }
+add_opinion_modifier = { target = CAN modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = positive_1 }
+add_opinion_modifier = { target = CHL modifier = negative_10 }
+add_opinion_modifier = { target = COL modifier = negative_10 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = ECU modifier = negative_10 }
+add_opinion_modifier = { target = EGY modifier = negative_20 }
+add_opinion_modifier = { target = ENG modifier = positive_7 }
+add_opinion_modifier = { target = ETH modifier = negative_20 }
+add_opinion_modifier = { target = FRA modifier = negative_10 }
+add_opinion_modifier = { target = LAO modifier = positive_26 }
+add_opinion_modifier = { target = LIB modifier = negative_30 }
+add_opinion_modifier = { target = MAN modifier = positive_10 }
+add_opinion_modifier = { target = MEX modifier = negative_10 }
+add_opinion_modifier = { target = MON modifier = negative_5 }
+add_opinion_modifier = { target = NEP modifier = positive_200 }
+add_opinion_modifier = { target = NGA modifier = negative_20 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = PER modifier = negative_20 }
+add_opinion_modifier = { target = POL modifier = negative_10 }
+add_opinion_modifier = { target = POR modifier = negative_10 }
+add_opinion_modifier = { target = SIK modifier = negative_20 }
+add_opinion_modifier = { target = SPR modifier = negative_10 }
+add_opinion_modifier = { target = SWE modifier = negative_10 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = positive_200 }
+give_military_access = TIB
+add_opinion_modifier = { target = USA modifier = positive_30 }
+add_opinion_modifier = { target = X01 modifier = negative_20 }
+add_opinion_modifier = { target = X02 modifier = positive_26 }
+add_opinion_modifier = { target = X05 modifier = positive_20 }
+add_opinion_modifier = { target = X06 modifier = positive_20 }
+add_opinion_modifier = { target = X07 modifier = positive_20 }
+add_opinion_modifier = { target = X08 modifier = positive_20 }
+add_opinion_modifier = { target = X11 modifier = positive_110 }
+add_opinion_modifier = { target = X19 modifier = negative_10 }
+add_opinion_modifier = { target = X20 modifier = positive_20 }
+add_opinion_modifier = { target = X26 modifier = positive_20 }
+add_opinion_modifier = { target = X28 modifier = positive_20 }
+add_opinion_modifier = { target = X30 modifier = positive_20 }
+add_opinion_modifier = { target = X31 modifier = positive_20 }
+add_opinion_modifier = { target = X36 modifier = positive_5 }
+add_opinion_modifier = { target = X42 modifier = negative_20 }
+add_opinion_modifier = { target = X45 modifier = positive_20 }
+add_opinion_modifier = { target = X48 modifier = positive_20 }
+add_opinion_modifier = { target = X49 modifier = positive_20 }
+add_opinion_modifier = { target = X52 modifier = negative_20 }
+add_opinion_modifier = { target = X57 modifier = negative_10 }
+add_opinion_modifier = { target = X58 modifier = positive_50 }
+add_opinion_modifier = { target = X59 modifier = positive_110 }
+add_opinion_modifier = { target = X69 modifier = positive_5 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X75 modifier = negative_10 }
+add_opinion_modifier = { target = X81 modifier = negative_20 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_nepali
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = X68_ranjur_thapa
+recruit_character = X68_jang_bahadur_rana
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Indira Singh Thapa"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Bhimsen Bahadur Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+	create_operative_leader = {
+		name = "Bhim Shamsher Bahadur Rana"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { X68 }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}

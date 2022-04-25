@@ -1,0 +1,35 @@
+
+state={
+	id=579
+	name="STATE_579"
+	resources={
+		chromium=54.000
+	}
+
+	history={
+		owner = TUR
+		victory_points = {
+			947 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 1
+			947 = {
+				naval_base = 2
+			}
+			air_base = 1
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		856 909 947 981 3786 3851 3856 3907 3951 3983 6808 6877 6945 9878 11811 11831 11867 
+	}
+	manpower=1590292
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

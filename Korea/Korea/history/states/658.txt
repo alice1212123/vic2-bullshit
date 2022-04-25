@@ -1,0 +1,32 @@
+
+state={
+	id=658
+	name="STATE_658"
+
+	history={
+		owner = W04
+		victory_points = {
+			13053 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			13049 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		13049 13053 
+	}
+	manpower=66832
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

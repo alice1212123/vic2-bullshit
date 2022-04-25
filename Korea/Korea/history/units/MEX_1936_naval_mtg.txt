@@ -1,0 +1,57 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12712
+		task_force = {
+			name = "2nd Fleet"
+			location = 12712
+			ship = { name = "Independencia" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MEX version_name = "Early Battleship" } } }
+			ship = { name = "Libertad" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MEX version_name = "Early Battleship" } } }
+			ship = { name = "Anahuac" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MEX version_name = "Early Battleship" } } }
+			ship = { name = "Demócrata" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MEX version_name = "Early Battleship" } } }
+			ship = { name = "Porfirio" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MEX version_name = "Early Battleship" } } }
+			ship = { name = "Díaz" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = MEX version_name = "Early Battleship" } } }
+			ship = { name = "2nd Matamoros Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Hermosillo Battleship" definition = heavy_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Hermosillo Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Hermosillo Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Matamoros Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Culiacán Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Veracruz Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "El Lobo" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Zaragoza" definition = light_cruiser start_experience_factor = 0.15 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "San Fernando" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Los Ramones" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Altamira" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Río Bravo" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Loma Alta" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Candela" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Villadama" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Santo Domingo" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+			ship = { name = "Tuxpan" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = MEX version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "MEX"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "MEX"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

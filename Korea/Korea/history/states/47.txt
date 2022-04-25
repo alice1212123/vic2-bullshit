@@ -1,0 +1,30 @@
+
+state={
+	id=47
+	name="STATE_47"
+
+	history={
+		owner = X02
+		victory_points = {
+			4299 20 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 7
+
+		}
+		add_core_of = RAJ
+		add_core_of = X02
+	}
+
+	provinces={
+		1377 1983 4299 8082 8114 12137 
+	}
+	manpower=3167800
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

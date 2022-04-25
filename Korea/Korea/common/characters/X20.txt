@@ -1,0 +1,64 @@
+characters={
+	X20_madhava_narayan={
+		name=X20_madhava_narayan
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X20_sawai_baji_rao={
+		name=X20_sawai_baji_rao
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X20_shivaji_ballal={
+		name=X20_shivaji_ballal
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X20_madhava_phadnis={
+		name=X20_madhava_phadnis
+		corps_commander={
+			skill=1
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	X20_venkatji_baji_rao={
+		name=X20_venkatji_baji_rao
+		portraits={
+			civilian={
+				large="gfx/leaders/RAJ/Portrait_The_Raj_Political_Leader_Generic.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

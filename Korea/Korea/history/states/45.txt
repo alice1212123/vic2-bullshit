@@ -1,0 +1,32 @@
+
+state={
+	id=45
+	name="STATE_45"
+
+	history={
+		owner = AUS
+		victory_points = {
+			11580 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = AUS
+		add_claim_by = HUN
+		add_claim_by = SER
+		add_claim_by = YUG
+	}
+
+	provinces={
+		614 619 3614 3617 3623 6643 9621 11580 11787 
+	}
+	manpower=1548600
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		aluminium=2.000
+		oil=2.000
+	}
+
+	history={
+		owner = X36
+		victory_points = {
+			1190 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			1190 = {
+				naval_base = 2
+			}
+			air_base = 6
+
+		}
+		add_core_of = X36
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1061 1190 7020 
+	}
+	manpower=163512
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

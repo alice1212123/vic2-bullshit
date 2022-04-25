@@ -1,0 +1,52 @@
+characters={
+	BEL_patrice_forgeur={
+		name=BEL_patrice_forgeur
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BEL_camille_du_val_de_beaulieu={
+		name=BEL_camille_du_val_de_beaulieu
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	BEL_lucien_dethier={
+		name=BEL_lucien_dethier
+		navy_leader={
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	BEL_emile_coquilhat={
+		name=BEL_emile_coquilhat
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/Portrait_Canada_Mackenzie_King.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

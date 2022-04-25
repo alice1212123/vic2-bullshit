@@ -1,0 +1,16 @@
+characters={
+	GXC_quoc_hau={
+		name=GXC_quoc_hau
+		portraits={
+			civilian={
+				large="gfx/leaders/Indo_Chinese_Nesia/Portrait_Siam_Sanya_Thammasak.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

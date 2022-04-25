@@ -1,0 +1,33 @@
+
+state={
+	id=652
+	name="STATE_652"
+
+	history={
+		owner = USA
+		victory_points = {
+			13048 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 0
+			dockyard = 1
+			13048 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		13048 
+	}
+	manpower=297752
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

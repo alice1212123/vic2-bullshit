@@ -1,0 +1,64 @@
+characters={
+	POL_stefan_rokossowski={
+		name=POL_stefan_rokossowski
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_ludwik_mokronowski={
+		name=POL_ludwik_mokronowski
+		corps_commander={
+			skill=2
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_tadeusz_wawrzecki={
+		name=POL_tadeusz_wawrzecki
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=5
+			legacy_id=0
+		}
+	}
+
+	POL_eustachy_chalasinski={
+		name=POL_eustachy_chalasinski
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	POL_stefan_zamoyski={
+		name=POL_stefan_zamoyski
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_POL_Boleslaw_Piasecki.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,103 @@
+﻿converted_war_strategies_BUK = {
+	enable = {
+		tag = BUK
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 572
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 217
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 93
+	}
+}
+
+converted_diplo_strategies_BUK = {
+	enable = {
+		tag = BUK
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "KOR"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 122
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 120
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 72
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 337
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 173
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 95
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 63
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 46
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LIB"
+		value = 46
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ETH"
+		value = 35
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X81"
+		value = 30
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "TIB"
+		value = 30
+	}
+}

@@ -1,0 +1,51 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10980
+		task_force = {
+			name = "1st Fleet"
+			location = 10980
+			ship = { name = "1st Amapá Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "2nd São Luís Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Salvador de Bahia Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "3rd Rio de Janeiro Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Aracaju Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Rio de Janeiro Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st São Luís Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "2nd Aracaju Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "2nd Rio de Janeiro Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "4th Rio de Janeiro Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Fortaleza" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Tiradentes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Aquidaban" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Riachuelo" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Benjamin Constant" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Almirante Tamandaré" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "Toneleros" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Amapá Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st Rio de Janeiro Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+			ship = { name = "1st São Luís Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = BRA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "BRA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "BRA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

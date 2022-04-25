@@ -1,0 +1,32 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = AUS
+		victory_points = {
+			9548 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = AUS
+		add_core_of = X62
+		add_claim_by = MOL
+		add_claim_by = ROM
+	}
+
+	provinces={
+		6761 9548 11689 
+	}
+	manpower=436440
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

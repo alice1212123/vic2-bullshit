@@ -1,0 +1,33 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		chromium=2.000
+	}
+
+	history={
+		owner = MON
+		victory_points = {
+			10627 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = CHI
+		add_claim_by = MON
+	}
+
+	provinces={
+		1676 1877 4680 7703 7731 7804 7819 10597 10627 10646 12610 12625 
+	}
+	manpower=615948
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

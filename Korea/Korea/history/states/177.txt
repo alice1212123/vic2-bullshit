@@ -1,0 +1,39 @@
+
+state={
+	id=177
+	name="STATE_177"
+	resources={
+		aluminium=5.000
+		rubber=18.000
+	}
+
+	history={
+		owner = X86
+		victory_points = {
+			10278 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 1
+			10149 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = RAJ
+		add_core_of = X86
+		add_claim_by = X25
+		add_claim_by = X48
+	}
+
+	provinces={
+		1268 1344 1381 1409 4327 4416 4420 7265 7363 7436 8067 10149 10246 10278 10808 12164 12247 
+	}
+	manpower=21154328
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

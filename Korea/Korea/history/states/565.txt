@@ -1,0 +1,35 @@
+
+state={
+	id=565
+	name="STATE_565"
+	resources={
+		aluminium=2.000
+		chromium=65.000
+		steel=13.000
+	}
+
+	history={
+		owner = X72
+		victory_points = {
+			10400 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = SAF
+		add_core_of = X72
+	}
+
+	provinces={
+		1688 2171 2213 5106 5217 7900 10400 10566 
+	}
+	manpower=1677908
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,16 @@
+characters={
+	X34_vakil_khan={
+		name=X34_vakil_khan
+		portraits={
+			civilian={
+				large="gfx/leaders/Indian/Portrait_DEH_Sir_Chhotu_Ram.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

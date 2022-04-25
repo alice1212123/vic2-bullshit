@@ -1,0 +1,37 @@
+
+state={
+	id=18
+	name="STATE_18"
+	resources={
+		chromium=1.000
+		oil=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = AST
+		victory_points = {
+			12910 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+			1773 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = AST
+	}
+
+	provinces={
+		1773 2219 5183 5197 5211 5225 7567 8165 8186 8220 10925 10927 12910 12918 12924 
+	}
+	manpower=2037865
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

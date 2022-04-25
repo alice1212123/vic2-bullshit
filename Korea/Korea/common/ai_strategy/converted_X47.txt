@@ -1,0 +1,18 @@
+﻿converted_war_strategies_X47 = {
+	enable = {
+		tag = X47
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_X47 = {
+	enable = {
+		tag = X47
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

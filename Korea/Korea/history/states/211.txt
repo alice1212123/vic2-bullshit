@@ -1,0 +1,38 @@
+
+state={
+	id=211
+	name="STATE_211"
+	resources={
+		chromium=4.000
+		steel=4.000
+		tungsten=14.000
+	}
+
+	history={
+		owner = X85
+		victory_points = {
+			11936 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			11936 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = VIN
+		add_core_of = X85
+	}
+
+	provinces={
+		1302 4255 4379 4397 7229 7280 9988 10016 10137 10309 11909 11936 12297 
+	}
+	manpower=4197672
+	buildings_max_level_factor=1.000
+	state_category=large_city
+
+	local_supplies=10.0
+}

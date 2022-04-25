@@ -1,0 +1,37 @@
+
+state={
+	id=556
+	name="STATE_556"
+
+	history={
+		owner = SWE
+		victory_points = {
+			13003 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			13003 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = DEN
+		add_core_of = SCA
+		add_core_of = SWE
+		add_core_of = X29
+		add_claim_by = NOR
+	}
+
+	provinces={
+		13003 
+	}
+	manpower=43384
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

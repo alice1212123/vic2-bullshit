@@ -1,0 +1,49 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6626
+		task_force = {
+			name = "2nd Fleet"
+			location = 6626
+			ship = { name = "Habsburg" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Árpád" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Babenburg" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Erzherzog Karl" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Erzherzog Friedrich" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Erzherzog Ferdinand Max" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Erzherzog Franz Ferdinand" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Radetzky" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Zrínyi" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Kotor Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Kaiser Karl IV" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Sankt Georg" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Admiral Spaun" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Saida" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Donau" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Laudon" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Light Cruiser" } } }
+			ship = { name = "Minerva" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Light Cruiser" } } }
+		}
+	}
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 9821
+		task_force = {
+			name = "1st Fleet"
+			location = 5786
+			ship = { name = "1st Venice Battleship" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AUS version_name = "Early Heavy Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AUS"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

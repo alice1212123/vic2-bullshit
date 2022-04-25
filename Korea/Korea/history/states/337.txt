@@ -1,0 +1,32 @@
+
+state={
+	id=337
+	name="STATE_337"
+
+	history={
+		owner = KOR
+		victory_points = {
+			10124 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10124 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		1123 7115 10124 11932 
+	}
+	manpower=529580
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

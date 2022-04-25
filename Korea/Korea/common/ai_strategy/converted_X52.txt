@@ -1,0 +1,138 @@
+﻿converted_war_strategies_X52 = {
+	enable = {
+		tag = X52
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SPR"
+		value = 467
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 257
+	}
+	ai_strategy = {
+		type = conquer
+		id = "KOR"
+		value = 195
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 192
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 172
+	}
+	ai_strategy = {
+		type = conquer
+		id = "EGY"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_X52 = {
+	enable = {
+		tag = X52
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "KOR"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SPR"
+		value = 104
+	}
+	ai_strategy = {
+		type = contain
+		id = "PER"
+		value = 71
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 69
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SPR"
+		value = 284
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "KOR"
+		value = 224
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 161
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 114
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 64
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EGY"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = 184
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 103
+	}
+	ai_strategy = {
+		type = alliance
+		id = "TUR"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X42"
+		value = 114
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "LAO"
+		value = 74
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ECU"
+		value = 24
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BOL"
+		value = 22
+	}
+}

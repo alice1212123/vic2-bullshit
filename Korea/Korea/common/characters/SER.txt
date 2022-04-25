@@ -1,0 +1,16 @@
+characters={
+	SER_alaksandar_pavkovic={
+		name=SER_alaksandar_pavkovic
+		portraits={
+			civilian={
+				large="gfx/leaders/Balkans/Portrait_Romania_Sever_Bocu.tga"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=116
+	name="STATE_116"
+	resources={
+		aluminium=1.000
+		oil=2.000
+		rubber=2.000
+		steel=4.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			4925 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = YUN
+		add_claim_by = CHI
+	}
+
+	provinces={
+		1395 1918 1999 2067 4925 4937 4999 7294 7988 8104 8126 10726 10841 11972 12141 12705 12724 12819 12837 
+	}
+	manpower=9153020
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

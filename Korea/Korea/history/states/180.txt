@@ -1,0 +1,41 @@
+
+state={
+	id=180
+	name="STATE_180"
+	resources={
+		aluminium=2.000
+		chromium=1.000
+		rubber=10.000
+		tungsten=6.000
+	}
+
+	history={
+		owner = X86
+		victory_points = {
+			7402 10 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			7447 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = X70
+		add_core_of = X86
+		add_claim_by = RAJ
+		add_claim_by = X48
+	}
+
+	provinces={
+		1238 1321 7288 7391 7402 7447 10130 10274 12275 
+	}
+	manpower=6209336
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

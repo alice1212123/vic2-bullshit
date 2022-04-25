@@ -1,0 +1,35 @@
+
+state={
+	id=34
+	name="STATE_34"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			6711 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = HUN
+		add_core_of = ROM
+		add_core_of = X67
+		add_claim_by = AUS
+	}
+
+	provinces={
+		676 693 727 3665 3694 3709 6711 6714 6731 9619 9672 9704 11622 11676 
+	}
+	manpower=1356700
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

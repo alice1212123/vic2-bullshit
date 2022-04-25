@@ -1,0 +1,16 @@
+characters={
+	X55_alfred_behncke={
+		name=X55_alfred_behncke
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_Norway_Johan_Nygaardsvold.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

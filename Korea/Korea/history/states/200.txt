@@ -1,0 +1,36 @@
+
+state={
+	id=200
+	name="STATE_200"
+	resources={
+		aluminium=1.000
+		chromium=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X86
+		victory_points = {
+			7430 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = RAJ
+		add_core_of = X25
+		add_core_of = X86
+	}
+
+	provinces={
+		7430 10030 12781 
+	}
+	manpower=3223340
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=10.0
+}

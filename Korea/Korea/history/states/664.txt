@@ -1,0 +1,32 @@
+
+state={
+	id=664
+	name="STATE_664"
+
+	history={
+		owner = W04
+		victory_points = {
+			12148 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			10188 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = W04
+	}
+
+	provinces={
+		10188 12148 
+	}
+	manpower=456120
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=10.0
+}

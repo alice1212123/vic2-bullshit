@@ -1,0 +1,52 @@
+characters={
+	URG_feliciano_machain={
+		name=URG_feliciano_machain
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	URG_nicolas_derqui={
+		name=URG_nicolas_derqui
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	URG_ramon_mitre={
+		name=URG_ramon_mitre
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+
+	URG_juan_manuel_de_alvear={
+		name=URG_juan_manuel_de_alvear
+		portraits={
+			civilian={
+				large="gfx/leaders/Hispanic/Portrait_ELS_Alfonso_Quinonez_Molina.tga"
+			}
+		}
+		country_leader={
+			ideology=dictatorship_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

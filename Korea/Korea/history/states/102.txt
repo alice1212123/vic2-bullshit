@@ -1,0 +1,40 @@
+
+state={
+	id=102
+	name="STATE_102"
+	resources={
+		chromium=6.000
+		rubber=3.000
+		steel=28.000
+		tungsten=47.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			1047 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			dockyard = 1
+			1047 = {
+				naval_base = 10
+			}
+			air_base = 2
+
+		}
+		add_core_of = CHI
+		add_core_of = GXC
+	}
+
+	provinces={
+		994 1018 1038 1047 1070 1087 1131 1187 4023 4092 4160 7039 7044 7135 7152 7192 9963 10004 10080 10105 11926 11938 11941 11963 11981 11983 11990 12023 12077 12095 
+	}
+	manpower=15524708
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

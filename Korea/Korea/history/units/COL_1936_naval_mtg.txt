@@ -1,0 +1,29 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10494
+		task_force = {
+			name = "1st Fleet"
+			location = 10494
+			ship = { name = "Antonia Manuela" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Chitty" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Guaviare" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Magdalena" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Ornico" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+			ship = { name = "Peacock" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = COL version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "COL"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

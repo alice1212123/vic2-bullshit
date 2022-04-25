@@ -1,0 +1,33 @@
+
+state={
+	id=94
+	name="STATE_94"
+	resources={
+		rubber=1.000
+		steel=3.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			12467 5 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		1036 4619 4631 7167 7580 7637 9959 10462 12467 
+	}
+	manpower=14775576
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

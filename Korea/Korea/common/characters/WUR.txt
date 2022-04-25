@@ -1,0 +1,16 @@
+characters={
+	WUR_engelbert_blos={
+		name=WUR_engelbert_blos
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Neville_Chamberlain.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

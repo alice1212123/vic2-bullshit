@@ -1,0 +1,36 @@
+
+state={
+	id=332
+	name="STATE_332"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			7072 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7113 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		1051 1067 1133 1136 4054 4142 7072 7113 9985 11960 12031 
+	}
+	manpower=15783424
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+
+	local_supplies=10.0
+}

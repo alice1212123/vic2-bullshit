@@ -1,0 +1,36 @@
+
+state={
+	id=248
+	name="STATE_248"
+	resources={
+		chromium=7.000
+	}
+
+	history={
+		owner = X90
+		victory_points = {
+			5128 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 0
+			8188 = {
+				naval_base = 10
+			}
+			air_base = 6
+
+		}
+		add_core_of = MAD
+		add_core_of = X90
+	}
+
+	provinces={
+		5128 5222 8188 10993 
+	}
+	manpower=2220348
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=10.0
+}

@@ -1,0 +1,605 @@
+﻿capital = 162
+set_major = yes
+set_research_slots = 4
+
+oob = "ENG_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "ENG_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "ENG_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	synth_oil_experiments = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { NOT = { has_dlc = "No Step Back" } }
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_medium_battery = 1
+		basic_naval_mines = 1
+		basic_ship_hull_cruiser = 1
+		basic_ship_hull_heavy = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_carrier = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		improved_airplane_launcher = 1
+		submarine_mine_laying = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		basic_battleship = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_light_cruiser = 1
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_doctrine_cost_reduction = {
+	name = naval_doc_bonus
+	cost_reduction = 0.99
+	uses = 1
+	category = naval_doctrine
+}
+
+set_country_flag = conv_britain
+starting_train_buffer = 3
+set_convoys = 45
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 978 producer = ENG }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 1 producer = ENG }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 516 producer = ENG }
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1935.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 72
+	fascism = 12
+	neutrality = 16
+}
+
+# DIPLOMACY
+if = {
+    limit = {
+        has_dlc = "Together for Victory"
+    }
+    set_autonomy = {
+        target = CAN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X83
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X84
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X85
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X86
+        autonomous_state = autonomy_colony
+        freedom_level = 0.4
+    }
+    set_autonomy = {
+        target = X87
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+    }
+    else = {
+        puppet = CAN
+        puppet = X83
+        puppet = X84
+        puppet = X85
+        puppet = X86
+        puppet = X87
+    }
+}
+
+if = {
+    limit = {has_dlc = "Together for Victory" }
+
+    add_to_tech_sharing_group = ENG_research
+}
+
+give_guarantee = ALG
+diplomatic_relation = { country = ALG relation = non_aggression_pact }
+
+give_guarantee = COL
+diplomatic_relation = { country = COL relation = non_aggression_pact }
+
+give_guarantee = GRE
+diplomatic_relation = { country = GRE relation = non_aggression_pact }
+
+give_guarantee = LAO
+diplomatic_relation = { country = LAO relation = non_aggression_pact }
+
+give_guarantee = MON
+diplomatic_relation = { country = MON relation = non_aggression_pact }
+
+give_guarantee = NGA
+diplomatic_relation = { country = NGA relation = non_aggression_pact }
+
+give_guarantee = POL
+diplomatic_relation = { country = POL relation = non_aggression_pact }
+
+give_guarantee = SOV
+diplomatic_relation = { country = SOV relation = non_aggression_pact }
+
+give_guarantee = SPR
+diplomatic_relation = { country = SPR relation = non_aggression_pact }
+
+give_guarantee = TUR
+diplomatic_relation = { country = TUR relation = non_aggression_pact }
+
+give_guarantee = X02
+diplomatic_relation = { country = X02 relation = non_aggression_pact }
+
+give_guarantee = X05
+diplomatic_relation = { country = X05 relation = non_aggression_pact }
+
+give_guarantee = X06
+diplomatic_relation = { country = X06 relation = non_aggression_pact }
+
+give_guarantee = X07
+diplomatic_relation = { country = X07 relation = non_aggression_pact }
+
+give_guarantee = X08
+diplomatic_relation = { country = X08 relation = non_aggression_pact }
+
+give_guarantee = X11
+diplomatic_relation = { country = X11 relation = non_aggression_pact }
+
+give_guarantee = X20
+diplomatic_relation = { country = X20 relation = non_aggression_pact }
+
+give_guarantee = X26
+diplomatic_relation = { country = X26 relation = non_aggression_pact }
+
+give_guarantee = X28
+diplomatic_relation = { country = X28 relation = non_aggression_pact }
+
+give_guarantee = X30
+diplomatic_relation = { country = X30 relation = non_aggression_pact }
+
+give_guarantee = X31
+diplomatic_relation = { country = X31 relation = non_aggression_pact }
+
+give_guarantee = X36
+diplomatic_relation = { country = X36 relation = non_aggression_pact }
+
+give_guarantee = X45
+diplomatic_relation = { country = X45 relation = non_aggression_pact }
+
+give_guarantee = X48
+diplomatic_relation = { country = X48 relation = non_aggression_pact }
+
+give_guarantee = X49
+diplomatic_relation = { country = X49 relation = non_aggression_pact }
+
+give_guarantee = X58
+diplomatic_relation = { country = X58 relation = non_aggression_pact }
+
+give_guarantee = XSM
+diplomatic_relation = { country = XSM relation = non_aggression_pact }
+
+add_opinion_modifier = { target = ALG modifier = positive_200 }
+give_military_access = ALG
+add_opinion_modifier = { target = ARG modifier = negative_118 }
+add_opinion_modifier = { target = AST modifier = positive_200 }
+add_opinion_modifier = { target = AUS modifier = positive_1 }
+add_opinion_modifier = { target = BEL modifier = positive_138 }
+add_opinion_modifier = { target = BHU modifier = positive_118 }
+add_opinion_modifier = { target = BOL modifier = positive_109 }
+give_military_access = BOL
+add_opinion_modifier = { target = BRA modifier = positive_180 }
+add_opinion_modifier = { target = BUK modifier = negative_134 }
+add_opinion_modifier = { target = CAM modifier = positive_97 }
+add_opinion_modifier = { target = CAN modifier = positive_200 }
+add_opinion_modifier = { target = CHI modifier = negative_2 }
+add_opinion_modifier = { target = CHL modifier = positive_10 }
+add_opinion_modifier = { target = COL modifier = positive_200 }
+add_opinion_modifier = { target = CUB modifier = positive_10 }
+add_opinion_modifier = { target = DEN modifier = positive_180 }
+add_opinion_modifier = { target = ECU modifier = positive_23 }
+add_opinion_modifier = { target = EGY modifier = negative_145 }
+add_opinion_modifier = { target = ETH modifier = negative_36 }
+add_opinion_modifier = { target = FRA modifier = negative_199 }
+add_opinion_modifier = { target = GER modifier = positive_119 }
+add_opinion_modifier = { target = GRE modifier = positive_200 }
+add_opinion_modifier = { target = HOL modifier = positive_200 }
+give_military_access = HOL
+add_opinion_modifier = { target = KOR modifier = negative_193 }
+set_truce = { target = KOR days = 698 }
+add_opinion_modifier = { target = LAO modifier = positive_200 }
+give_military_access = LAO
+add_opinion_modifier = { target = LIB modifier = positive_3 }
+add_opinion_modifier = { target = LUX modifier = positive_150 }
+give_military_access = LUX
+add_opinion_modifier = { target = MAN modifier = negative_13 }
+add_opinion_modifier = { target = MEX modifier = negative_27 }
+add_opinion_modifier = { target = MNT modifier = positive_8 }
+add_opinion_modifier = { target = MOL modifier = positive_113 }
+add_opinion_modifier = { target = MON modifier = positive_196 }
+add_opinion_modifier = { target = NEP modifier = positive_115 }
+add_opinion_modifier = { target = NGA modifier = positive_115 }
+add_opinion_modifier = { target = PAR modifier = positive_55 }
+give_military_access = PAR
+add_opinion_modifier = { target = PER modifier = negative_156 }
+add_opinion_modifier = { target = POL modifier = positive_200 }
+add_opinion_modifier = { target = POR modifier = negative_50 }
+add_opinion_modifier = { target = SIA modifier = negative_7 }
+add_opinion_modifier = { target = SIK modifier = negative_84 }
+add_opinion_modifier = { target = SOV modifier = positive_47 }
+add_opinion_modifier = { target = SPR modifier = positive_200 }
+add_opinion_modifier = { target = SWE modifier = positive_167 }
+add_opinion_modifier = { target = SWI modifier = negative_54 }
+add_opinion_modifier = { target = TIB modifier = positive_190 }
+give_military_access = TIB
+add_opinion_modifier = { target = TUR modifier = positive_200 }
+add_opinion_modifier = { target = URG modifier = positive_20 }
+add_opinion_modifier = { target = USA modifier = negative_180 }
+add_opinion_modifier = { target = VAT modifier = negative_195 }
+add_opinion_modifier = { target = X01 modifier = negative_105 }
+add_opinion_modifier = { target = X02 modifier = positive_200 }
+add_opinion_modifier = { target = X05 modifier = positive_200 }
+add_opinion_modifier = { target = X06 modifier = positive_200 }
+add_opinion_modifier = { target = X07 modifier = positive_200 }
+add_opinion_modifier = { target = X08 modifier = positive_200 }
+add_opinion_modifier = { target = X11 modifier = positive_200 }
+add_opinion_modifier = { target = X19 modifier = positive_101 }
+add_opinion_modifier = { target = X20 modifier = positive_200 }
+add_opinion_modifier = { target = X26 modifier = positive_200 }
+add_opinion_modifier = { target = X28 modifier = positive_200 }
+add_opinion_modifier = { target = X30 modifier = positive_200 }
+add_opinion_modifier = { target = X31 modifier = positive_200 }
+add_opinion_modifier = { target = X36 modifier = positive_200 }
+add_opinion_modifier = { target = X41 modifier = negative_195 }
+add_opinion_modifier = { target = X42 modifier = negative_2 }
+add_opinion_modifier = { target = X45 modifier = positive_200 }
+add_opinion_modifier = { target = X46 modifier = negative_195 }
+add_opinion_modifier = { target = X48 modifier = positive_200 }
+add_opinion_modifier = { target = X49 modifier = positive_200 }
+add_opinion_modifier = { target = X52 modifier = negative_190 }
+add_opinion_modifier = { target = X57 modifier = positive_180 }
+add_opinion_modifier = { target = X58 modifier = positive_200 }
+add_opinion_modifier = { target = X59 modifier = negative_190 }
+add_opinion_modifier = { target = X60 modifier = negative_195 }
+add_opinion_modifier = { target = X63 modifier = positive_30 }
+add_opinion_modifier = { target = X66 modifier = negative_165 }
+add_opinion_modifier = { target = X68 modifier = positive_7 }
+add_opinion_modifier = { target = X69 modifier = negative_135 }
+add_opinion_modifier = { target = X72 modifier = positive_109 }
+add_opinion_modifier = { target = X73 modifier = negative_195 }
+add_opinion_modifier = { target = X75 modifier = positive_57 }
+add_opinion_modifier = { target = X77 modifier = positive_10 }
+add_opinion_modifier = { target = X81 modifier = positive_109 }
+give_military_access = X81
+add_opinion_modifier = { target = XSM modifier = positive_140 }
+
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	add_ideas = MTG_naval_treaty_adherent
+}
+add_ideas = {
+	great_power
+	ENG_monarch
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_british
+}
+set_stability = 0.60
+set_war_support = 0.60
+
+recruit_character = ENG_alfred_allenby
+recruit_character = ENG_winston_cochrane
+recruit_character = ENG_alfred_roberts
+recruit_character = ENG_colbert_grant
+recruit_character = ENG_oswald_cockburn
+recruit_character = ENG_james_gough
+recruit_character = ENG_arthur_grant
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Elizabeth Williams"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ENG }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Kitchener"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ENG }
+	}
+
+	create_operative_leader = {
+		name = "Elizabeth Mundy"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { ENG }
+	}
+
+	create_operative_leader = {
+		name = "William Hope"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG }
+	}
+
+	create_operative_leader = {
+		name = "George French"
+		GFX = "gfx/leaders/Europe/portrait_europe_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = ship_hull_heavy_2
+		name_group = ENG_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_2
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_heavy_battery_2
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = ENG_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = ENG_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_medium_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = ENG_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = ENG_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+	create_equipment_variant = {
+		name = "GW Heavy Tank"
+		type = heavy_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Light Tank"
+		type = light_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/gwtank.dds"
+	}
+	create_equipment_variant = {
+		name = "GW Medium Tank"
+		type = medium_tank_chassis_0
+		parent_version = 0
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_small_cannon
+			suspension_type_slot = tank_bogie_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+		}
+		icon = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
+	}
+}
+save_global_event_target_as = uk_colonial_focus_ENG

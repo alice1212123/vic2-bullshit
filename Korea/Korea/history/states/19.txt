@@ -1,0 +1,23 @@
+
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		oil=0.000
+	}
+	impassable = yes
+
+	history={
+		owner = AST
+		add_core_of = AST
+	}
+
+	provinces={
+		2205 5138 7623 8206 12906 
+	}
+	manpower=220371
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+
+	local_supplies=10.0
+}

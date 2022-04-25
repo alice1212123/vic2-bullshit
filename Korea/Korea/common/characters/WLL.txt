@@ -1,0 +1,16 @@
+characters={
+	WLL_jean_louis_desmanet_de_biesme={
+		name=WLL_jean_louis_desmanet_de_biesme
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

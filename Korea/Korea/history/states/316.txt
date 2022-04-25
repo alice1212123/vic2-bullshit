@@ -1,0 +1,33 @@
+
+state={
+	id=316
+	name="STATE_316"
+	resources={
+		aluminium=29.000
+	}
+
+	history={
+		owner = GER
+		victory_points = {
+			663 4 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 2
+
+		}
+		add_core_of = SWI
+		add_claim_by = GER
+	}
+
+	provinces={
+		636 658 661 663 3641 3660 3662 9600 11601 11604 11623 
+	}
+	manpower=3088376
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+
+	local_supplies=10.0
+}

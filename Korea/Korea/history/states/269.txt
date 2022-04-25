@@ -1,0 +1,36 @@
+
+state={
+	id=269
+	name="STATE_269"
+	resources={
+		oil=43.000
+	}
+
+	history={
+		owner = X19
+		victory_points = {
+			4942 10 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+			arms_factory = 0
+			8113 = {
+				naval_base = 2
+			}
+			air_base = 10
+
+		}
+		add_core_of = VEN
+		add_core_of = X19
+	}
+
+	provinces={
+		4892 4942 5000 5056 7968 8024 8080 8113 
+	}
+	manpower=417044
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

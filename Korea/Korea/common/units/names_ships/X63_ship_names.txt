@@ -1,0 +1,176 @@
+﻿X63_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+
+	prefix = ""
+	fallback_name = "Battleship BB-%d"
+
+	unique = {
+		"Vittorio Amadeo" "Eugenio di Savoia" "Vittorio Emanuele" "Carlo Emanuele" "Carlo Felice" "Andrea Doria" "Conti di Cavour" "Solferino" "Magenta" "Re di Sardegna" "Duca di Savoia" "Re di Sicilia" "Maria Luisa" "Maria Teresa" "San Carlo" "San Vittorio" "San Michele" "Santa Teresa" "Santa Barbara" "San Effioso" 
+	}
+}
+
+X63_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+
+	prefix = ""
+	fallback_name = "Battlecruiser BC-%d"
+
+	unique = {
+		"Sardegna" "Piemonte" "Liguria" "Nizza" "Valle d'Aosta" "Monferrato" "Saluzzo" "Sicilia" "Torino" "Genova" "Cagliari" 
+	}
+}
+
+X63_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+	prefix = ""
+	fallback_name = "Heavy Cruiser CA-%d"
+
+	unique = {
+		"Vittorio Amadeo" "Eugenio di Savoia" "Vittorio Emanuele" "Carlo Emanuele" "Carlo Felice" "Andrea Doria" "Conti di Cavour" "Solferino" "Magenta" "Re di Sardegna" "Duca di Savoia" "Re di Sicilia" "Maria Luisa" "Maria Teresa" "San Carlo" "San Vittorio" "San Michele" "Santa Teresa" "Santa Barbara" "San Effioso" 
+	}
+}
+
+X63_CLAA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CLAA
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CLAA-%d"
+
+	unique = {
+		"Aquila" "Aurora" "Azzardoso" "Beroldo" "Capitana" "Carloforte" "Colombo" "Daino" "Eridano" "Euridice" "Falco" "Favorita" "Nereide" "Patrona" "Serpente" "Regina" "Tritone" "Veloce" "Vigilante" "Zeffiro" 
+	}
+}
+
+X63_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+	prefix = ""
+	fallback_name = "Light Cruiser CL-%d"
+
+	unique = {
+		"Aquila" "Aurora" "Azzardoso" "Beroldo" "Capitana" "Carloforte" "Colombo" "Daino" "Eridano" "Euridice" "Falco" "Favorita" "Nereide" "Patrona" "Serpente" "Regina" "Tritone" "Veloce" "Vigilante" "Zeffiro" 
+	}
+}
+
+X63_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CVL-%d"
+
+	unique = {
+		"Sardegna" "Piemonte" "Liguria" "Nizza" "Valle d'Aosta" "Monferrato" "Saluzzo" "Sicilia" "Torino" "Genova" "Cagliari" 
+	}
+}
+
+X63_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+
+	prefix = ""
+	fallback_name = "Carrier CV-%d"
+
+	unique = {
+		"Sardegna" "Piemonte" "Liguria" "Nizza" "Valle d'Aosta" "Monferrato" "Saluzzo" "Sicilia" "Torino" "Genova" "Cagliari" 
+	}
+}
+
+X63_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer DD-%d"
+
+	unique = {
+		"Aquila" "Aurora" "Azzardoso" "Beroldo" "Capitana" "Carloforte" "Colombo" "Daino" "Eridano" "Euridice" "Falco" "Favorita" "Nereide" "Patrona" "Serpente" "Regina" "Tritone" "Veloce" "Vigilante" "Zeffiro" 
+	}
+}
+
+X63_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Destroyer Escort DE-%d"
+
+	unique = {
+		"Aquila" "Aurora" "Azzardoso" "Beroldo" "Capitana" "Carloforte" "Colombo" "Daino" "Eridano" "Euridice" "Falco" "Favorita" "Nereide" "Patrona" "Serpente" "Regina" "Tritone" "Veloce" "Vigilante" "Zeffiro" 
+	}
+}
+
+X63_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser ship_hull_light destroyer }
+
+	prefix = ""
+	fallback_name = "Minelayer CM-%d"
+
+	unique = {
+		"Aquila" "Aurora" "Azzardoso" "Beroldo" "Capitana" "Carloforte" "Colombo" "Daino" "Eridano" "Euridice" "Falco" "Favorita" "Nereide" "Patrona" "Serpente" "Regina" "Tritone" "Veloce" "Vigilante" "Zeffiro" 
+	}
+}
+
+X63_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { X63 }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+
+	prefix = ""
+	fallback_name = "Submarine SS-%d"
+
+	unique = {
+		"Aquila" "Aurora" "Azzardoso" "Beroldo" "Capitana" "Carloforte" "Colombo" "Daino" "Eridano" "Euridice" "Falco" "Favorita" "Nereide" "Patrona" "Serpente" "Regina" "Tritone" "Veloce" "Vigilante" "Zeffiro" 
+	}
+}
+

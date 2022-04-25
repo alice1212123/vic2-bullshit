@@ -1,0 +1,18 @@
+﻿converted_war_strategies_ROM = {
+	enable = {
+		tag = ROM
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_ROM = {
+	enable = {
+		tag = ROM
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+}

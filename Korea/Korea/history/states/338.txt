@@ -1,0 +1,37 @@
+
+state={
+	id=338
+	name="STATE_338"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = KOR
+		victory_points = {
+			855 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12446 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = KOR
+		add_claim_by = JAP
+		add_claim_by = SOV
+	}
+
+	provinces={
+		855 1322 1742 1755 1820 12446 
+	}
+	manpower=1383492
+	buildings_max_level_factor=1.000
+	state_category=rural
+
+	local_supplies=10.0
+}

@@ -1,0 +1,138 @@
+﻿converted_war_strategies_KYR = {
+	enable = {
+		tag = KYR
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 398
+	}
+	ai_strategy = {
+		type = conquer
+		id = "BUK"
+		value = 205
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SIK"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 75
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 32
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PER"
+		value = 8
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GRE"
+		value = 6
+	}
+}
+
+converted_diplo_strategies_KYR = {
+	enable = {
+		tag = KYR
+		always = no
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "BUK"
+		value = 296
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 264
+	}
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 159
+	}
+	ai_strategy = {
+		type = contain
+		id = "X59"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X08"
+		value = 29
+	}
+	ai_strategy = {
+		type = contain
+		id = "X33"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "BUK"
+		value = 369
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 248
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 107
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GRE"
+		value = 6
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "PER"
+		value = 3
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PER"
+		value = 200
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BUK"
+		value = 119
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X33"
+		value = 81
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X01"
+		value = 58
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X52"
+		value = 57
+	}
+}

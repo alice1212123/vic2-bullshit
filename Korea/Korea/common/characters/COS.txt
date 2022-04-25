@@ -1,0 +1,16 @@
+characters={
+	COS_bernardo_aguilar={
+		name=COS_bernardo_aguilar
+		portraits={
+			civilian={
+				large="gfx/leaders/BRA/Portrait_Brazil_Plinio_Salgado.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

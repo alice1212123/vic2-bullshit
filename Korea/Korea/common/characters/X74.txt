@@ -1,0 +1,16 @@
+characters={
+	X74_pauls_berkis={
+		name=X74_pauls_berkis
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_Poland_Ignacy_Moscicki.dds"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

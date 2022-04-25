@@ -1,0 +1,64 @@
+characters={
+	MOL_gheorghe_critescu={
+		name=MOL_gheorghe_critescu
+		corps_commander={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MOL_ion_emanuel_tatarascu={
+		name=MOL_ion_emanuel_tatarascu
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MOL_vintila_baldescu={
+		name=MOL_vintila_baldescu
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MOL_leontin_slaniceanu={
+		name=MOL_leontin_slaniceanu
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+
+	MOL_vintila_ionescu={
+		name=MOL_vintila_ionescu
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Ion_Antonescu.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

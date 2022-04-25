@@ -1,0 +1,16 @@
+characters={
+	LBA_sa'd_al_din_ibn_abd_allah={
+		name=LBA_sa'd_al_din_ibn_abd_allah
+		portraits={
+			civilian={
+				large="gfx/leaders/Arabic_Persian/Portrait_EGY_Hussein_Al_Shafei.tga"
+			}
+		}
+		country_leader={
+			ideology=absolute_monarchy_neutral
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

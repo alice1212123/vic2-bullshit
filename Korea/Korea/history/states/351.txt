@@ -1,0 +1,29 @@
+
+state={
+	id=351
+	name="STATE_351"
+
+	history={
+		owner = W00
+		victory_points = {
+			9962 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = W00
+	}
+
+	provinces={
+		2176 2206 2220 4171 5180 5224 8144 9962 10932 10988 11017 
+	}
+	manpower=2676968
+	buildings_max_level_factor=1.000
+	state_category=large_town
+
+	local_supplies=10.0
+}

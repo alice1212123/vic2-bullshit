@@ -1,0 +1,142 @@
+﻿capital = 169
+set_research_slots = 2
+
+oob = "RAJ_OOB"
+
+# Starting tech
+# Research Bonuses
+
+set_country_flag = conv_south_asia
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 83
+	neutrality = 17
+}
+
+add_opinion_modifier = { target = ALG modifier = negative_30 }
+add_opinion_modifier = { target = ARG modifier = negative_10 }
+add_opinion_modifier = { target = AUS modifier = negative_10 }
+add_opinion_modifier = { target = BEL modifier = negative_10 }
+add_opinion_modifier = { target = BHU modifier = negative_15 }
+add_opinion_modifier = { target = BOL modifier = negative_10 }
+add_opinion_modifier = { target = CAM modifier = negative_15 }
+add_opinion_modifier = { target = EGY modifier = negative_30 }
+add_opinion_modifier = { target = ENG modifier = negative_5 }
+add_opinion_modifier = { target = ETH modifier = negative_30 }
+add_opinion_modifier = { target = FRA modifier = negative_10 }
+add_opinion_modifier = { target = GER modifier = negative_10 }
+add_opinion_modifier = { target = GRE modifier = negative_10 }
+add_opinion_modifier = { target = HOL modifier = negative_10 }
+add_opinion_modifier = { target = KOR modifier = negative_15 }
+add_opinion_modifier = { target = LAO modifier = negative_15 }
+add_opinion_modifier = { target = LUX modifier = negative_10 }
+add_opinion_modifier = { target = MNT modifier = negative_10 }
+add_opinion_modifier = { target = MOL modifier = negative_10 }
+add_opinion_modifier = { target = NEP modifier = positive_10 }
+add_opinion_modifier = { target = NGA modifier = negative_30 }
+add_opinion_modifier = { target = PAR modifier = negative_10 }
+add_opinion_modifier = { target = PER modifier = negative_30 }
+add_opinion_modifier = { target = SOV modifier = negative_10 }
+add_opinion_modifier = { target = SWE modifier = negative_10 }
+add_opinion_modifier = { target = TIB modifier = negative_15 }
+add_opinion_modifier = { target = TUR modifier = negative_10 }
+add_opinion_modifier = { target = VAT modifier = negative_10 }
+add_opinion_modifier = { target = X02 modifier = negative_5 }
+add_opinion_modifier = { target = X36 modifier = negative_5 }
+add_opinion_modifier = { target = X41 modifier = negative_10 }
+add_opinion_modifier = { target = X42 modifier = negative_30 }
+add_opinion_modifier = { target = X46 modifier = negative_10 }
+add_opinion_modifier = { target = X52 modifier = negative_30 }
+add_opinion_modifier = { target = X57 modifier = negative_10 }
+add_opinion_modifier = { target = X60 modifier = negative_10 }
+add_opinion_modifier = { target = X66 modifier = negative_10 }
+add_opinion_modifier = { target = X69 modifier = negative_5 }
+add_opinion_modifier = { target = X72 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X77 modifier = negative_10 }
+add_opinion_modifier = { target = X81 modifier = negative_30 }
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_marathi
+}
+
+recruit_character = RAJ_madhava_narayan
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Indira Bowa Sahib"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { RAJ }
+	}
+
+	create_operative_leader = {
+		name = "Indira Baji Rao"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { RAJ }
+	}
+
+	create_operative_leader = {
+		name = "Indira Appa Sahib"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_female_3.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		female = yes
+		nationalities = { RAJ }
+	}
+
+	create_operative_leader = {
+		name = "Raghunath Baji Rao"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_1.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { RAJ }
+	}
+
+	create_operative_leader = {
+		name = "Sawai Bowa Sahib"
+		GFX = "gfx/leaders/India/portrait_india_generic_operative_male_2.dds"
+		traits = {}
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { RAJ }
+	}
+
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}
+### TANK DESIGNS ###
+if = {
+	limit = { has_dlc = "No Step Back" }
+}
